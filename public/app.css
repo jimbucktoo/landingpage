@@ -1,283 +1,280 @@
-body{
-  caret-color: black;
+body {
+    caret-color: black;
 }
 
 input {
-  text-align: center;
+    text-align: center;
 }
 
 button {
-  border: 1px solid black;
-  border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 button:hover {
-  border: 1px solid #0091ea;
-  color: #0091ea;
-  border-radius: 5px;
+    border: 1px solid #0091ea;
+    color: #0091ea;
+    border-radius: 5px;
 }
 
 .hide {
-  display: none;
+    display: none;
 }
 
 .overflow {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .navy {
-  background-color: #2F3C5F;
+    background-color: #2F3C5F;
 }
 
 .blue {
-  background-color: #3B8DE1;
+    background-color: #3B8DE1;
 }
 
 .white {
-  background-color: white;
+    background-color: white;
 }
 
 .black {
-  background-color: black;
+    background-color: black;
 }
 
 .white-text {
-  color: white;
+    color: white;
 }
 
 .black-text {
-  color: black;
+    color: black;
 }
 
 .brand-logo {
-  margin-left: 1%;
+    margin-left: 1%;
 }
 
 ::-webkit-input-placeholder {
-  text-align: center;
+    text-align: center;
 }
 
 :-moz-placeholder {
-  text-align: center;  
-  color: black;
+    text-align: center;
+    color: black;
 }
 
 ::-moz-placeholder {
-  text-align: center;  
+    text-align: center;
 }
 
-:-ms-input-placeholder {  
-  text-align: center; 
+:-ms-input-placeholder {
+    text-align: center;
 }
 
 .navbar {
-  background-color: #2F3C5F;
+    background-color: #2F3C5F;
 }
 
 #map {
-  height: 300px;
-  width: 50%;
-  border: 1px solid black;
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
 }
 
 .primaryGoal {
-  background-color: #3B8DE1;
+    background-color: #3B8DE1;
 }
 
 .secondaryGoal {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .tertiaryGoal {
-  background-color: #3B8DE1;
+    background-color: #3B8DE1;
 }
 
 .delete {
-  background-color: red;
+    background-color: red;
 }
 
 .primaryGoal:hover {
-  color: #3B8DE1;
-  background-color: white;
+    color: #3B8DE1;
+    background-color: white;
 }
 
 .secondaryGoal:hover {
-  color: #2F3C5F;
-  background-color: white;
+    color: #2F3C5F;
+    background-color: white;
 }
 
 .tertiaryGoal:hover {
-  color: #3B8DE1;
-  background-color: white;
+    color: #3B8DE1;
+    background-color: white;
 }
 
 .delete:hover {
-  color: red;
-  background-color: white;
-  border: 1px solid red;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
 }
 
 .primaryGoal:focus {
-  background-color: #3B8DE1;
-  color: white;
+    background-color: #3B8DE1;
+    color: white;
 }
 
 .secondaryGoal:focus {
-  background-color: transparent;
-  color: white;
+    background-color: transparent;
+    color: white;
 }
 
 .tertiaryGoal:focus {
-  background-color: #3B8DE1;
-  color: white;
+    background-color: #3B8DE1;
+    color: white;
 }
 
 .delete:focus {
-  background-color: red;
-  color: white;
-  border: 1px solid red;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
 }
 
 .bg {
-  background-image: url("http://totaltechpro.com/wp-content/uploads/2016/06/blurred-image-7588-7881-hd-wallpapers.jpg");
-  height: 100%; 
-  background-position:50% 90%;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("http://totaltechpro.com/wp-content/uploads/2016/06/blurred-image-7588-7881-hd-wallpapers.jpg");
+    height: 100%;
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .inputPortal {
-  color: black;
+    color: black;
 }
 
 .headline {
-  max-width: 960px;
-  font-size: 36px;
-  font-weight: 700;
+    max-width: 960px;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .promoIcon {
-  font-size: 200px;
-  color: #2F3C5F;
+    font-size: 200px;
+    color: #2F3C5F;
 }
 
 .promoCaption {
-  line-height: 1.6;
-  text-align: center;
-  margin: 30px auto;
-  color: #262e45;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: .2px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 30px auto;
+    color: #262e45;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .2px;
 }
 
 .promoSubCaption {
-  line-height: 1.6;
-  font-size: 18px;
-  color: #436980;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #436980;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
+    float: left;
+    width: 33.3%;
+    padding: 8px;
 }
 
 .price {
-  list-style-type: none;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
 }
 
 .price .header {
-  background-color: #111;
-  color: white;
-  font-size: 25px;
+    background-color: #111;
+    color: white;
+    font-size: 25px;
 }
 
 .price li {
-  border-bottom: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
 }
 
 .price .grey {
-  background-color: #eee;
-  font-size: 20px;
+    background-color: #eee;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 300px) {
-  .columns {
-    width: 100%;
-  }
+    .columns {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
-  .overflow {
-    visibility: hidden;
-  }
+    .overflow {
+        visibility: hidden;
+    }
 }
 
 .footer-link-list {
-  text-align: center;
+    text-align: center;
 }
 
 .footer-links {
-  margin-right: 10px;
-  display: inline;
+    margin-right: 10px;
+    display: inline;
 }
 
 .hov:hover {
-  border: 1px solid black;
-  border-radius: 15px;
-  background-color: #eee;
-
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #eee;
 }
 
 .emailCapture {
-  border: none;
+    border: none;
 }
 
-.emailSubmit{
-  height: 42px;
-  vertical-align: 10%;
-  margin-left: 10px;
+.emailSubmit {
+    height: 42px;
+    vertical-align: 10%;
+    margin-left: 10px;
 }
 
 .sidenavtitle {
-  padding-left: 30px;
+    padding-left: 30px;
 }
 
 .module {
-  border: 1px solid black;
-  width: 100%;
-  background-color: transparent;
-  margin-top: 50px;
-  border-radius: 10px;
+    border: 1px solid black;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 50px;
+    border-radius: 10px;
 }
 
-.action-btn{
-  margin-top: 10px;
-  margin-right: 10px;
+.action-btn {
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .pointer {
-  cursor: pointer;
+    cursor: pointer;
 }
-
-
