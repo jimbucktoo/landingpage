@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Survaid</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="/materialize.min.css" media="screen,projection">
+        <link rel="stylesheet" type="text/css" href="/app.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    </head>
+
+    <body class="white">
+        <div>
+            <div class="row">
+                <nav>
+                    <div class="nav-wrapper navbar z-depth-2">
+                        <a href="/" class="brand-logo overflow"><i class="large material-icons" width="30px">assignment</i>Survaid</a>
+                        <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="/" class="waves-effect waves-light btn primaryGoal"><i class="material-icons right">power_settings_new</i>Get Started</a></li>
+                            <li><a href="#" class="waves-effect waves-light btn secondaryGoal z-depth-0">Schedule A Demo</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <ul class="sidenav" id="mobile-demo">
+                    <li class="navy white-text sidenavtitle">Survaid</li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Schedule A Demo</a></li>
+                </ul>
+                <br>
+                <center>
+                    <h2 class="black-text headline">Launch, test, and analyze real-time branching mobile surveys customized to any third party sensors</h2></center>
+                <br>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="hov col l4 m12 s12">
+                            <br>
+                            <center><i class="promoIcon material-icons">call_split</i>
+                                <h5 class="promoCaption">Dynamically Branch Your <br> Survey Questions</h5>
+                                <p class="promoSubCaption">Split the questions users receive with third party sensor input based
+                                <br> metrics.</p>
+                                <br>
+                                <button class="waves-effect waves-light btn tertiaryGoal">See Demo</button>
+                            </center>
+                            <br>
+                        </div>
+                        <div class="hov col l4 m12 s12">
+                            <br>
+                            <center><i class="promoIcon material-icons">speaker_phone</i>
+                                <h5 class="promoCaption">The Mobile Third Party Sensor Survey Platform of Choice</h5>
+                                <p class="promoSubCaption">Customizable to any third party
+                                <br> mobile sensors. Take the limitations out of data collection.</p>
+                                <br>
+                                <button class="waves-effect waves-light btn tertiaryGoal">See Demo</button>
+                            </center>
+                            <br>
+                        </div>
+                        <div class="hov col l4 m12 s12">
+                            <br>
+                            <center><i class="promoIcon material-icons">signal_cellular_off</i>
+                                <h5 class="promoCaption">Autonomous Caching <br> for Continuous Data Collection</h5>
+                                <p class="promoSubCaption">Continuously collect data even in areas without cellular data or a wireless internet connection.</p>
+                                <br>
+                                <button class="waves-effect waves-light btn tertiaryGoal">See Demo</button>
+                            </center>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <center>
+                    <h2 class="black-text headline">Stay connected with our weekly newsletter.</h2></center>
+                <br>
+                <br>
+                <br>
+                <div class="container">
+                    <center>
+                        <input type="text" class="emailCapture" id="emailInput" placeholder="[ Your Email ]">
+                        <button class="waves-effect waves-light btn emailSubmit tertiaryGoal" onclick="emailCapture()">Subscribe</button>
+                    </center>
+                </div>
+                <br>
+                <br>
+                <br>
+                <center>
+                    <div class="inputPortal hide">
+                        <br>
+                        <br>
+                        <br>
+                        <h6>User: <%= fullnameVar %></h6>
+                        <% if(fullnameVar.toLowerCase() === "landingpage") { %>
+                        <p>Authenticated:
+                        <%=fullnameVar%>
+                        </p>
+                        <% } else { %>
+                        <p>Error Authenticating:
+                        <%=fullnameVar%>
+                        </p>
+                        <% } %>
+                        <br>
+                        <h6>Product List: <%= productsVar %></h6>
+                        <br>
+                        <form action="/addproduct" method="POST">
+                            <input type="text" name="newproduct" placeholder="Enter Product Name">
+                            <br>
+                            <br>
+                            <br>
+                            <button class="btn" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </form>
+                    </div>
+                </center>
+                <br>
+                <br>
+                <footer class="page-footer white-text navy">
+                    <div class="row">
+                        <div class="footer-link-list">
+                            <a class="white-text footer-links" href="#">About</a>
+                            <a class="white-text text-lighten-3 footer-links" href="#">FAQ</a>
+                            <a class="white-text text-lighten-3 footer-links" href="#">Privacy</a>
+                            <a class="white-text text-lighten-3 footer-links" href="#">Terms</a>
+                            <a class="white-text text-lighten-3 footer-links" href="#">Contact</a>
+                        </div>
+                    </div>
+                    <center>
+                        <div class="footer-copyright">
+                            <div class="container white-text">
+                                © 2018 Survaid LLC
+                            </div>
+                        </div>
+                    </center>
+                </footer>
+                <script type="text/javascript" src="/materialize.min.js"></script>
+                <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+                <script>
+                    var config = {
+                        apiKey: "AIzaSyDOICvv4I17YxipbvrSeDs7HsmoloJVjVI",
+                        authDomain: "landingpage-3a359.firebaseapp.com",
+                        databaseURL: "https://landingpage-3a359.firebaseio.com",
+                        projectId: "landingpage-3a359",
+                        storageBucket: "landingpage-3a359.appspot.com",
+                        messagingSenderId: "704168931957"
+                    };
+                    firebase.initializeApp(config);
+
+                    var database = firebase.database();
+
+                    function writeUserData(userId, name, email) {
+                        firebase.database().ref('users/' + userId).set({
+                            username: name,
+                            email: email
+                        });
+                    };
+
+                    function emailCapture() {
+                        var emailInput = document.getElementById("emailInput").value;
+                        writeUserData("jimbucktoo", "jimbucktoo", emailInput);
+                    };
+
+                    $(document).ready(function() {
+                        $('.sidenav').sidenav();
+                    });
+                </script>
+    </body>
+
+</html>
