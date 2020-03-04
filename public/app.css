@@ -40,21 +40,16 @@ button:hover {
 }
 
 .functionality-box {
-    background-color:#2F3C5F;
+    background-color: #2F3C5F;
     min-height: 27vh;
 }
 
 .specs-table {
-    background-color:#2F3C5F;
-    height: 50vh;
+    background-color: #2F3C5F;
 }
 
 .col-title {
     font-weight: bold;
-}
-
-.inner-box {
-
 }
 
 .package {

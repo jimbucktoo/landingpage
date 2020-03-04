@@ -1,243 +1,270 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Survaid</title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="/materialize.min.css" media="screen,projection">
-        <link rel="stylesheet" type="text/css" href="/app.css">
-        <link rel="icon" 
-              type="image/png" 
-              href="/favicon.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    </head>
-    <body class="white">
-        <div class="bg">
-            <div class="row">
-                <nav>
-                    <div class="nav-wrapper navbar z-depth-2">
-                        <a href="/" class="brand-logo overflow"><i class="large material-icons" width="30px">assignment</i>Survaid</a>
-                        <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="/" class="waves-effect waves-light btn primaryGoal"><i class="material-icons right">power_settings_new</i>Get Started</a></li>
-                            <li><a href="/" class="waves-effect waves-light btn secondaryGoal z-depth-0">Schedule A Demo</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <ul class="sidenav" id="mobile-demo">
-                    <li class="navy white-text sidenavtitle">Survaid</li>
-                    <li><a href="/">Get Started</a></li>
-                    <li><a href="/">Schedule A Demo</a></li>
-                </ul>
-                <center>
-                    <br>
-                    <br>
-                    <br>
-                    <h2 class="white-text bold" style="margin-left:7vw; margin-right: 7vw;">Capture powerful mobile sensor data from survey participants with an advanced mobile data collection toolkit</h2>
-                    <br>
-                    <h5 class="white-text" style="line-height: 2em; margin-left:45px; margin-right: 45px;">Build, test, and analyze custom mobile surveys that generate detailed reports <br> utilizing data from the many powerful sensors built in modern smartphones</h5>
-                    <br>
-                    <br>
-                    <br>
-                    <button class="waves-effect waves-light btn-large targetGoal">Schedule A Demo</button>
-                    <button id="demos" class="waves-effect waves-light btn-large tertiaryGoal" style="margin-left: 20px">Learn More</button>
-                    <br>
-                    <br>
-                    <br>
-                </center>
-            </div>
-        </div>
-        <div class="functionality-box">
-            <p class="package" style="margin: 0px 100px 30px 100px; text-align: center; font-size: 20px;">Survaid provides a sophisticated mobile data collection toolkit, including a broad array of question types, advanced notification configurations, compliance monitoring, and internal/external device integration. Our software is a cross-platform system for collecting information from participants in real life, over time.</p>
-            <br>
-            <center><button id="demos" class="waves-effect waves-light btn-large tertiaryGoal" style="margin-bottom: 30px;">Learn More</button></center>
-        </div>
-        <br>
-        <center><img class="z-depth-2 homeScreen" src="homeScreen.png" width="350px" style="border:2px solid black"></center>
-        <br>
-        <div class="specs-table">
-            <h3 style="padding: 30px 0px 30px 30px; color: white;">Functionality</h3>
-            <div class="row">
-                <table>
-                    <thead>
-                        <tr>
-                            <th scope="col" style="width: 20%; padding-left: 30px; font-size: 20px;">Question Types</th>
-                            <th scope="col" style="width: 25%; padding-left: 30px; font-size: 20px;">Notification Scheduling</th>
-                            <th scope="col" style="width: 25%; padding-left: 30px; font-size: 20px;">Compliance Monitoring</th>
-                            <th scope="col" style="width: 25%; padding-left: 30px; font-size: 20px;">External &amp; Internal Device Integration </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <ul class="browser-default">
-                                    <li>Yes/No</li>
-                                    <li>Multiple Choice</li>
-                                    <li>Scale</li>
-                                    <li>Date & Time</li>
-                                    <li>Time Interval</li>
-                                    <li>Numeric</li>
-                                    <li>Branch Based</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul class="browser-default">
-                                    <li>Random Notifications: Notifications scheduled within a configured time interval</li>
-                                    <li>Scheduled Notifications: Notifications occurring at a constant time each day</li>
-                                    <li>Reminder Notifications: Activated when a user doesn't provide a response to a scheduled or random notification</li>
-                                    <li>Follow-Ups: Schedule or un-schedule additional surveys based on user responses</li>
-                                    <li>Offline Notification Scheduling</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul class="browser-default">
-                                    <li>Track whether users provide responses in a timely manner by enabling custom compliance windows</li>
-                                    <li>Suspend participant configurable options to temporarily disable notifications</li>
-                                    <li>Only allow users to take surveys in a specific time interval</li>
-                                    <li>Only allow users to provide a fixed number of responses each day</li>
-                                    <li>Hide surveys outside of notification windows</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul class="browser-default">
-                                    <li>Phone GPS sensor</li>
-                                    <li>Phone Accelerometer sensor</li>
-                                    <li>BACTrack Alcohol Sensor</li>
-                                    <li>ResearchKit Gait and Balance Active Task</li>
-                                    <li>ResearchKit Paced Serial Addition Test (PSAT) Active Task</li>
-                                    <li>Integration with other ResearchKit Active Tasks</li>
-                                    <li>Integration with other external devices</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <br>
-        <div style="text-align: center;"><h3>Leadership</h3></div>
-        <br>
-        <br>
-        <img src="./team.png" width="100%" />
-        <br>
-        <br>
-        <br>
-        <center>
-            <h2 class="black-text headline">Find the right pricing option that most <br> efficiently fits your needs</h2>
-            <br>
-            <button id="pricing" class="waves-effect waves-light btn-large tertiaryGoal">See Pricing</button>
-            <br>
-            <br>
-            <br>
-        </center>
-        <center>
-            <h2 class="black-text headline">Stay connected with our weekly newsletter</h2></center>
-        <br>
-        <br>
-        <br>
-        <div class="container">
+
+<head>
+    <title>Survaid</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="/app.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+<body class="white">
+    <div class="bg">
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper navbar z-depth-2">
+                    <a href="/" class="brand-logo overflow"><i class="large material-icons"
+                            width="30px">assignment</i>Survaid</a>
+                    <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="/" class="waves-effect waves-light btn primaryGoal"><i
+                                    class="material-icons right">power_settings_new</i>Get Started</a></li>
+                        <li><a href="/" class="waves-effect waves-light btn secondaryGoal z-depth-0">Schedule A Demo</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+                <li class="navy white-text sidenavtitle">Survaid</li>
+                <li><a href="/">Get Started</a></li>
+                <li><a href="/">Schedule A Demo</a></li>
+            </ul>
             <center>
-                <input type="text" class="emailCapture" id="emailInput" placeholder="[ Your Email ]">
-                <button class="waves-effect waves-light btn emailSubmit tertiaryGoal" onclick="emailCapture()">Subscribe</button>
+                <br>
+                <br>
+                <br>
+                <h2 class="white-text bold" style="margin-left:7vw; margin-right: 7vw;">Capture powerful mobile sensor
+                    data from survey participants with an advanced mobile data collection toolkit</h2>
+                <br>
+                <h5 class="white-text" style="line-height: 2em; margin-left:45px; margin-right: 45px;">Build, test, and
+                    analyze custom mobile surveys that generate detailed reports <br> utilizing data from the many
+                    powerful sensors built in modern smartphones</h5>
+                <br>
+                <br>
+                <br>
+                <button class="waves-effect waves-light btn-large targetGoal">Schedule A Demo</button>
+                <button id="demos" class="waves-effect waves-light btn-large tertiaryGoal"
+                    style="margin-left: 20px">Learn More</button>
+                <br>
+                <br>
+                <br>
             </center>
         </div>
+    </div>
+    <div class="functionality-box">
+        <p class="package" style="margin: 0px 100px 30px 100px; text-align: center; font-size: 20px;">Survaid provides a
+            sophisticated mobile data collection toolkit, including a broad array of question types, advanced
+            notification configurations, compliance monitoring, and internal/external device integration. Our software
+            is a cross-platform system for collecting information from participants in real life, over time.</p>
+        <br>
+        <center><button id="demos" class="waves-effect waves-light btn-large tertiaryGoal"
+                style="margin-bottom: 30px;">Learn More</button></center>
+    </div>
+    <br>
+    <center><img class="z-depth-2 homeScreen" src="homeScreen.png" width="350px" style="border:2px solid black">
+    </center>
+    <br>
+    <div class="specs-table" style="padding: 50px 100px 100px 100px;">
+        <h3 style="padding: 0px 0px 30px 30px; color: white;">Functionality</h3>
+        <div class="row">
+            <table style="border: 1px solid white;">
+                <thead>
+                    <tr>
+                        <th scope="col"
+                            style="width: 20%; padding-left: 30px; font-size: 20px; border: 1px solid white;">Question
+                            Types</th>
+                        <th scope="col"
+                            style="width: 25%; padding-left: 30px; font-size: 20px; border: 1px solid white;">
+                            Notification Scheduling</th>
+                        <th scope="col"
+                            style="width: 25%; padding-left: 30px; font-size: 20px; border: 1px solid white;">Compliance
+                            Monitoring</th>
+                        <th scope="col"
+                            style="width: 25%; padding-left: 30px; font-size: 20px; border: 1px solid white;">External
+                            &amp; Internal Device Integration </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid white;">
+                            <ul class="browser-default">
+                                <li>Yes/No</li>
+                                <li>Multiple Choice</li>
+                                <li>Scale</li>
+                                <li>Date & Time</li>
+                                <li>Time Interval</li>
+                                <li>Numeric</li>
+                                <li>Branch Based</li>
+                            </ul>
+                        </td>
+                        <td style="border: 1px solid white;">
+                            <ul class="browser-default">
+                                <li>Random Notifications: Notifications scheduled within a configured time interval</li>
+                                <li>Scheduled Notifications: Notifications occurring at a constant time each day</li>
+                                <li>Reminder Notifications: Activated when a user doesn't provide a response to a
+                                    scheduled or random notification</li>
+                                <li>Follow-Ups: Schedule or un-schedule additional surveys based on user responses</li>
+                                <li>Offline Notification Scheduling</li>
+                            </ul>
+                        </td>
+                        <td style="border: 1px solid white;">
+                            <ul class="browser-default">
+                                <li>Track whether users provide responses in a timely manner by enabling custom
+                                    compliance windows</li>
+                                <li>Suspend participant configurable options to temporarily disable notifications</li>
+                                <li>Only allow users to take surveys in a specific time interval</li>
+                                <li>Only allow users to provide a fixed number of responses each day</li>
+                                <li>Hide surveys outside of notification windows</li>
+                            </ul>
+                        </td>
+                        <td style="border: 1px solid white;">
+                            <ul class="browser-default">
+                                <li>Phone GPS sensor</li>
+                                <li>Phone Accelerometer sensor</li>
+                                <li>BACTrack Alcohol Sensor</li>
+                                <li>ResearchKit Gait and Balance Active Task</li>
+                                <li>ResearchKit Paced Serial Addition Test (PSAT) Active Task</li>
+                                <li>Integration with other ResearchKit Active Tasks</li>
+                                <li>Integration with other external devices</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <h3>Leadership</h3>
+    </div>
+    <br>
+    <br>
+    <img src="./team.png" width="100%" />
+    <br>
+    <br>
+    <br>
+    <center>
+        <h2 class="black-text headline">Find the right pricing option that most <br> efficiently fits your needs</h2>
+        <br>
+        <button id="pricing" class="waves-effect waves-light btn-large tertiaryGoal">See Pricing</button>
         <br>
         <br>
         <br>
+    </center>
+    <center>
+        <h2 class="black-text headline">Stay connected with our weekly newsletter</h2>
+    </center>
+    <br>
+    <br>
+    <br>
+    <div class="container">
         <center>
-            <div class="inputPortal hide">
-                <br>
-                <br>
-                <br>
-                <h6>User: <%= fullnameVar %></h6>
-                <% if(fullnameVar.toLowerCase() === "landingpage") { %>
-                <p>Authenticated:
+            <input type="text" class="emailCapture" id="emailInput" placeholder="[ Your Email ]">
+            <button class="waves-effect waves-light btn emailSubmit tertiaryGoal"
+                onclick="emailCapture()">Subscribe</button>
+        </center>
+    </div>
+    <br>
+    <br>
+    <br>
+    <center>
+        <div class="inputPortal hide">
+            <br>
+            <br>
+            <br>
+            <h6>User: <%= fullnameVar %></h6>
+            <% if(fullnameVar.toLowerCase() === "landingpage") { %>
+            <p>Authenticated:
                 <%=fullnameVar%>
-                </p>
-                <% } else { %>
-                <p>Error Authenticating:
+            </p>
+            <% } else { %>
+            <p>Error Authenticating:
                 <%=fullnameVar%>
-                </p>
-                <% } %>
+            </p>
+            <% } %>
+            <br>
+            <h6>Product List: <%= productsVar %></h6>
+            <br>
+            <form action="/addproduct" method="POST">
+                <input type="text" name="newproduct" placeholder="Enter Product Name">
                 <br>
-                <h6>Product List: <%= productsVar %></h6>
                 <br>
-                <form action="/addproduct" method="POST">
-                    <input type="text" name="newproduct" placeholder="Enter Product Name">
-                    <br>
-                    <br>
-                    <br>
-                    <button class="btn" type="submit" name="action">Submit
-                        <i class="material-icons right">send</i>
-                    </button>
-                </form>
+                <br>
+                <button class="btn" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
+        </div>
+    </center>
+    <br>
+    <br>
+    <footer class="page-footer white-text navy">
+        <div class="row">
+            <div class="footer-link-list">
+                <a class="white-text footer-links" href="#">Home</a>
+                <a class="white-text text-lighten-3 footer-links" href="#">Services</a>
+                <a class="white-text text-lighten-3 footer-links" href="#">Functionality</a>
+                <a class="white-text text-lighten-3 footer-links" href="#">About</a>
+                <a class="white-text text-lighten-3 footer-links" href="#">Contact</a>
+            </div>
+        </div>
+        <center>
+            <div class="footer-copyright">
+                <div class="container white-text">
+                    © 2020 Survaid LLC
+                </div>
             </div>
         </center>
-        <br>
-        <br>
-        <footer class="page-footer white-text navy">
-            <div class="row">
-                <div class="footer-link-list">
-                    <a class="white-text footer-links" href="#">Home</a>
-                    <a class="white-text text-lighten-3 footer-links" href="#">Services</a>
-                    <a class="white-text text-lighten-3 footer-links" href="#">Functionality</a>
-                    <a class="white-text text-lighten-3 footer-links" href="#">About</a>
-                    <a class="white-text text-lighten-3 footer-links" href="#">Contact</a>
-                </div>
-            </div>
-            <center>
-                <div class="footer-copyright">
-                    <div class="container white-text">
-                        © 2020 Survaid LLC
-                    </div>
-                </div>
-            </center>
-        </footer>
-        <script type="text/javascript" src="/materialize.min.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-        <script>
-            var config = {
-                apiKey: "AIzaSyDOICvv4I17YxipbvrSeDs7HsmoloJVjVI",
-                authDomain: "landingpage-3a359.firebaseapp.com",
-                databaseURL: "https://landingpage-3a359.firebaseio.com",
-                projectId: "landingpage-3a359",
-                storageBucket: "landingpage-3a359.appspot.com",
-                messagingSenderId: "704168931957"
-            };
-firebase.initializeApp(config);
+    </footer>
+    <script type="text/javascript" src="/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyDOICvv4I17YxipbvrSeDs7HsmoloJVjVI",
+            authDomain: "landingpage-3a359.firebaseapp.com",
+            databaseURL: "https://landingpage-3a359.firebaseio.com",
+            projectId: "landingpage-3a359",
+            storageBucket: "landingpage-3a359.appspot.com",
+            messagingSenderId: "704168931957"
+        };
+        firebase.initializeApp(config);
 
-var database = firebase.database();
+        var database = firebase.database();
 
-function writeUserData(userId, name, email) {
-    firebase.database().ref('users/' + userId).set({
-        username: name,
-        email: email
-    });
-};
+        function writeUserData(userId, name, email) {
+            firebase.database().ref('users/' + userId).set({
+                username: name,
+                email: email
+            });
+        };
 
-function emailCapture() {
-    var emailInput = document.getElementById("emailInput").value;
-    writeUserData("jimbucktoo", "jimbucktoo", emailInput);
-};
+        function emailCapture() {
+            var emailInput = document.getElementById("emailInput").value;
+            writeUserData("jimbucktoo", "jimbucktoo", emailInput);
+        };
 
-$(document).ready(function() {
-    $('.sidenav').sidenav();
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
 
-    $('.homeScreen').mouseenter(function() {
-        $(this).addClass('z-depth-3')
-    }).mouseleave(function() {
-        $(this).removeClass('z-depth-3')
-    })
+            $('.homeScreen').mouseenter(function () {
+                $(this).addClass('z-depth-3')
+            }).mouseleave(function () {
+                $(this).removeClass('z-depth-3')
+            })
 
-    $('#pricing').click(function() {
-        window.location = "/pricing.html"
-    })
+            $('#pricing').click(function () {
+                window.location = "/pricing.html"
+            })
 
-    $('#demos').click(function() {
-        window.location = "/demos.html"
-    })
-});
-        </script>
-    </body>
+            $('#demos').click(function () {
+                window.location = "/demos.html"
+            })
+        });
+    </script>
+</body>
+
 </html>
