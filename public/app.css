@@ -1,5 +1,23 @@
 body {
     caret-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    color: white;
+}
+
+li {
+    color: white;
+    padding-right: 30px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+p {
+    text-overflow: ellipsis;
 }
 
 input {
@@ -15,6 +33,35 @@ button:hover {
     border: 1px solid #0091ea;
     color: #0091ea;
     border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.functionality-box {
+    background-color:#2F3C5F;
+    min-height: 35vh;
+}
+
+.specs-table {
+    background-color:#2F3C5F;
+    height: 50vh;
+}
+
+.col-title {
+    font-weight: bold;
+}
+
+.inner-box {
+
+}
+
+.package {
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .hide {
@@ -84,6 +131,10 @@ button:hover {
     border: 1px solid black;
 }
 
+.targetGoal {
+    background-color: #2F3C5F;
+}
+
 .primaryGoal {
     background-color: #3B8DE1;
 }
@@ -143,9 +194,9 @@ button:hover {
 }
 
 .bg {
-    background-image: url("http://totaltechpro.com/wp-content/uploads/2016/06/blurred-image-7588-7881-hd-wallpapers.jpg");
+    background-image: url("https://d117h1jjiq768j.cloudfront.net/images/default-source/products/labs/labs-hero-image.jpg?Status=Temp&sfvrsn=432a5148_2");
     height: 100%;
-    background-position: 50% 90%;
+    background-position: 30% 15%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -179,10 +230,6 @@ button:hover {
     line-height: 1.6;
     font-size: 18px;
     color: #436980;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .columns {

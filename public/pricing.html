@@ -23,8 +23,7 @@
                 </nav>
                 <ul class="sidenav" id="mobile-demo">
                     <li class="navy white-text sidenavtitle">Survaid</li>
-                    <li><a href="/">Get Started</a></li>
-                    <li><a href="/">Log In</a></li>
+                    <li><a href="/">Home</a></li>
                 </ul>
                 <center>
                     <h2 class="black-text headline">Find the right pricing option that most <br> efficiently fits your needs.</h2></center>
@@ -36,10 +35,10 @@
                         <div class="col l4 m12 s12">
                             <ul class="price">
                                 <li class="header">Standard</li>
-                                <li class="white-text" style="background-color:#2F3C5F">Get started with the essential experimentation tools to help you optimize your web experiences.</li>
-                                <li>Mobile API</li>
-                                <li>50 GB Storage</li>
-                                <li>Discrete/Continuous</li>
+                                <li class="white-text" style="background-color: #2F3C5F">Get started now with the essential experimentation tools to help you optimize your web experiences.</li>
+                                <li style="color: black">Mobile API</li>
+                                <li style="color: black">50 GB Storage</li>
+                                <li style="color: black">Discrete/Continuous</li>
                             </ul>
                             <center>
                                 <br>
@@ -53,9 +52,9 @@
                             <ul class="price">
                                 <li class="header" style="background-color:#3B8DE1">Business</li>
                                 <li class="white-text" style="background-color:#2F3C5F">Drive experimentation across all of your digital touchpoints and begin collaborating across teams.</li>
-                                <li>Web API</li>
-                                <li>100 GB Storage</li>
-                                <li>Discrete/Continuous</li>
+                                <li style="color: black">Web API</li>
+                                <li style="color: black">100 GB Storage</li>
+                                <li style="color: black">Discrete/Continuous</li>
                             </ul>
                             <center>
                                 <br>
@@ -69,9 +68,9 @@
                             <ul class="price">
                                 <li class="header">Enterprise</li>
                                 <li class="white-text" style="background-color:#2F3C5F">Scale experiments 10X, with advanced collaboration, reporting, targeting, personalization & more.</li>
-                                <li>Custom API</li>
-                                <li>150 GB Storage</li>
-                                <li>Discrete/Continuous</li>
+                                <li style="color: black">Custom API</li>
+                                <li style="color: black">150 GB Storage</li>
+                                <li style="color: black">Discrete/Continuous</li>
                             </ul>
                             <center>
                                 <br>
@@ -157,25 +156,25 @@
                         storageBucket: "landingpage-3a359.appspot.com",
                         messagingSenderId: "704168931957"
                     };
-                    firebase.initializeApp(config);
+firebase.initializeApp(config);
 
-                    var database = firebase.database();
+var database = firebase.database();
 
-                    function writeUserData(userId, name, email) {
-                        firebase.database().ref('users/' + userId).set({
-                            username: name,
-                            email: email
-                        });
-                    };
+function writeUserData(userId, name, email) {
+    firebase.database().ref('users/' + userId).set({
+        username: name,
+        email: email
+    });
+};
 
-                    function emailCapture() {
-                        var emailInput = document.getElementById("emailInput").value;
-                        writeUserData("jimbucktoo", "jimbucktoo", emailInput);
-                    };
+function emailCapture() {
+    var emailInput = document.getElementById("emailInput").value;
+    writeUserData("jimbucktoo", "jimbucktoo", emailInput);
+};
 
-                    $(document).ready(function() {
-                        $('.sidenav').sidenav();
-                    });
+$(document).ready(function() {
+    $('.sidenav').sidenav();
+});
                 </script>
     </body>
 </html>
