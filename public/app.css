@@ -128,6 +128,7 @@ button:hover {
 
 .targetGoal {
     background-color: #2F3C5F;
+    box-shadow: 0 3px 5px black !important;
 }
 
 .primaryGoal {
