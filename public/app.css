@@ -76,7 +76,7 @@ button:hover {
 }
 
 .blue {
-    background-color: #3B8DE1;
+    background-color: #026EFF;
 }
 
 .white {
@@ -158,7 +158,7 @@ button:hover {
 }
 
 .tertiaryGoal:hover {
-    color: #3B8DE1;
+    color: #026EFF;
     background-color: white;
 }
 
@@ -169,7 +169,7 @@ button:hover {
 }
 
 .primaryGoal:focus {
-    background-color: #3B8DE1;
+    background-color: #026EFF;
     color: white;
 }
 
@@ -179,7 +179,7 @@ button:hover {
 }
 
 .tertiaryGoal:focus {
-    background-color: #3B8DE1;
+    background-color: #026EFF;
     color: white;
 }
 
@@ -286,9 +286,9 @@ button:hover {
 }
 
 .hov:hover {
-    border: 1px solid black;
     border-radius: 15px;
     background-color: #eee;
+    box-shadow: 0 3px 3px black !important;
 }
 
 .emailCapture {
