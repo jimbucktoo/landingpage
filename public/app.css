@@ -147,6 +147,13 @@ button:hover {
     background-color: red;
 }
 
+.targetGoal:hover {
+    box-shadow: 0 3px 5px black !important;
+    color: #2F3C5F;
+    background-color: white;
+    border: 1px solid #2F3C5F;
+}
+
 .primaryGoal:hover {
     color: #3B8DE1;
     background-color: white;
