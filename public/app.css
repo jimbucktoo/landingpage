@@ -30,8 +30,8 @@ button {
 }
 
 button:hover {
-    border: 1px solid #0091ea;
-    color: #0091ea;
+    border: 1px solid #026EFF;
+    color: #026EFF;
     border-radius: 5px;
 }
 
@@ -155,7 +155,7 @@ button:hover {
 }
 
 .primaryGoal:hover {
-    color: #3B8DE1;
+    color: #026EFF;
     background-color: white;
 }
 
@@ -232,7 +232,7 @@ button:hover {
 .promoSubCaption {
     line-height: 1.6;
     font-size: 18px;
-    color: #436980;
+    color: rgb(64, 80, 124);
 }
 
 .columns {
