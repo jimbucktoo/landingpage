@@ -81,9 +81,10 @@ button:hover {
     width: 50%;
 }
 
-.pricing {
-    padding: 10px 0px 0px 0px;
+.spacer {
+    color: white;
     background-color: #2F3C5F;
+    padding: 3px 0px 10px 0px;
 }
 
 .intro-box {
