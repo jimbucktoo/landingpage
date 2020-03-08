@@ -102,7 +102,6 @@
         <br>
         <br>
     </center>
-
     <div style="margin: 10px 0px 10px 0px; background-color: #2F3C5F;">
         <div class="spacer">
             <center>
@@ -127,39 +126,6 @@
     <br>
     <br>
     <br>
-    <center>
-        <div class="inputPortal hide">
-            <br>
-            <br>
-            <br>
-            <h6>User:
-                <%= fullnameVar %>
-            </h6>
-            <% if(fullnameVar.toLowerCase() === "landingpage ") { %>
-                <p>Authenticated:
-                    <%=fullnameVar%>
-                </p>
-                <% } else { %>
-                    <p>Error Authenticating:
-                        <%=fullnameVar%>
-                    </p>
-                    <% } %>
-                        <br>
-                        <h6>Product List:
-                            <%= productsVar %>
-                        </h6>
-                        <br>
-                        <form action="/addproduct" method="POST">
-                            <input type="text" name="newproduct" placeholder="Enter Product Name">
-                            <br>
-                            <br>
-                            <br>
-                            <button class="btn-large" type="submit" name="action">Submit
-                        <i class="material-icons right">send</i>
-                    </button>
-                        </form>
-        </div>
-    </center>
     <br>
     <br>
     <footer class="page-footer white-text navy">
