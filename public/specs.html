@@ -19,13 +19,15 @@
                     <a href="/" class="brand-logo overflow"><i class="large material-icons" width="30px">assignment</i>Survaid</a>
                     <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="/demos.html" class="waves-effect waves-light btn secondaryGoal z-depth-0 demos">Schedule A Demo</a></li>
+                        <li><a href="/" class="waves-effect waves-light btn secondaryGoal z-depth-0">Why Survaid?</a></li>
+                        <li><a href="#" class="waves-effect waves-light btn secondaryGoal z-depth-0 demos">Schedule Demo</a></li>
+                        <li><a href="#" class="waves-effect waves-light btn secondaryGoal z-depth-0 pricing">Pricing</a></li>
                     </ul>
                 </div>
             </nav>
             <ul class="sidenav" id="mobile-demo">
                 <li class="navy white-text sidenavtitle">Survaid</li>
-                <li><a href="/demos.html">Schedule A Demo</a></li>
+                <li><a href="/demos.html">Schedule Demo</a></li>
             </ul>
             <br>
             <br>
@@ -195,7 +197,7 @@
                 </div>
             </div>
             <div class="center" style="margin-bottom: 100px;">
-                <button class="waves-effect waves-light btn-large targetGoal demos" style="margin-bottom: 1vh;">Schedule A Demo</button>
+                <button class="waves-effect waves-light btn-large targetGoal demos" style="margin-bottom: 1vh;">Schedule Demo</button>
                 <a class="pointer underline" href="/">
                     <h6 style="color: #2F3C5F;">Contact Us</h6>
                 </a>
@@ -236,7 +238,7 @@
             <footer class="page-footer white-text navy" style="margin-bottom: 0px;">
                 <div class="row">
                     <div class="footer-link-list">
-                        <a class="white-text footer-links" href="#">Schedule A Demo</a>
+                        <a class="white-text footer-links" href="#">Schedule Demo</a>
                         <a class="white-text text-lighten-3 footer-links" href="#">About Us</a>
                         <a class="white-text text-lighten-3 footer-links" href="#">Leadership</a>
                         <a class="white-text text-lighten-3 footer-links" href="#">Blog</a>
@@ -280,11 +282,19 @@
 
                 $(document).ready(function() {
                     $('.sidenav').sidenav();
-                });
 
-                $('.demos').click(function() {
-                    window.location = "/demos.html"
-                })
+                    $('.demos').click(function() {
+                        window.location = "/demos.html"
+                    })
+
+                    $('.pricing').click(function() {
+                        window.location = "/pricing.html"
+                    })
+
+                    $('.specs').click(function() {
+                        window.location = "/specs.html"
+                    })
+                });
             </script>
 </body>
 

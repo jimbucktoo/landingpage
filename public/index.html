@@ -21,26 +21,27 @@
                                                                    width="30px">assignment</i>Survaid</a>
                     <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="#" class="waves-effect waves-light btn secondaryGoal z-depth-0 demos">Schedule A Demo</a>
-                        </li>
+                        <li><a href="/" class="waves-effect waves-light btn secondaryGoal z-depth-0">Why Survaid?</a></li>
+                        <li><a href="#" class="waves-effect waves-light btn secondaryGoal z-depth-0 demos">Schedule Demo</a></li>
+                        <li><a href="#" class="waves-effect waves-light btn secondaryGoal z-depth-0 pricing">Pricing</a></li>
                     </ul>
                 </div>
             </nav>
             <ul class="sidenav" id="mobile-demo">
                 <li class="navy white-text sidenavtitle">Survaid</li>
-                <li><a href="/demos.html">Schedule A Demo</a></li>
+                <li><a href="/demos.html">Schedule Demo</a></li>
             </ul>
             <center>
                 <br>
                 <br>
                 <br>
-                <h2 class="white-text bold" style="margin-left:13vw; margin-right: 13vw;">Capture mobile sensor data from survey participants, in real-time, over time</h2>
+                <h2 class="white-text bold" style="margin-left:13vw; margin-right: 13vw;">Capture <span style="color: orange;">mobile sensor data</span> from survey participants, in real-time, over time</h2>
                 <br>
                 <h5 class="white-text" style="line-height: 2em; margin-left:45px; margin-right: 45px;">Build, test, and analyze custom mobile surveys that generate detailed reports <br> utilizing data from the many powerful sensors built in modern smartphones</h5>
                 <br>
                 <br>
                 <br>
-                <button class="waves-effect waves-light btn-large targetGoal demos">Schedule A Demo</button>
+                <button class="waves-effect waves-light btn-large targetGoal demos">Schedule Demo</button>
                 <button class="waves-effect waves-light btn-large tertiaryGoal specs" style="margin-left: 20px">Learn More</button>
                 <br>
                 <br>
@@ -93,7 +94,7 @@
         <img src="https://assets-global.website-files.com/5c88fc885559811e86314a3b/5d6ec64569147c322bf97c81_OG%20-%20Pricing.png" width="700vw" alt="pricing" style="border: 10px solid #2F3C5F; border-radius: 15px; box-shadow: 0 3px 5px black;">
         <h2 class="black-text headline" style="margin-top: 70px;">Find the right pricing option that most <br> efficiently fits your needs</h2>
         <br>
-        <button id="pricing" class="waves-effect waves-light btn-large tertiaryGoal">See Pricing</button>
+        <button class="waves-effect waves-light btn-large tertiaryGoal pricing">See Pricing</button>
         <br>
         <br>
         <br>
@@ -164,7 +165,7 @@
     <footer class="page-footer white-text navy">
         <div class="row">
             <div class="footer-link-list">
-                <a class="white-text footer-links" href="#">Schedule A Demo</a>
+                <a class="white-text footer-links" href="#">Schedule Demo</a>
                 <a class="white-text text-lighten-3 footer-links" href="#">About Us</a>
                 <a class="white-text text-lighten-3 footer-links" href="#">Leadership</a>
                 <a class="white-text text-lighten-3 footer-links" href="#">Blog</a>
@@ -215,12 +216,12 @@
                 $(this).removeClass('z-depth-3')
             })
 
-            $('#pricing').click(function() {
-                window.location = "/pricing.html"
-            })
-
             $('.demos').click(function() {
                 window.location = "/demos.html"
+            })
+
+            $('.pricing').click(function() {
+                window.location = "/pricing.html"
             })
 
             $('.specs').click(function() {
