@@ -3,6 +3,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.outer-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -11,9 +16,14 @@ table {
     color: white;
 }
 
-li {
+.spec-item {
+    color: black;
+    margin-right: 100px;
+}
+
+.spec-item-alt {
     color: white;
-    padding-right: 30px;
+    margin-right: 100px;
 }
 
 ul {
@@ -41,12 +51,23 @@ button:hover {
 
 .underline:hover {
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: #2F3C5F;
     text-decoration-style: solid;
 }
 
 * {
     box-sizing: border-box;
+}
+
+.left-side-title {
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.right-side-title {
+    text-align: right;
+    padding-top: 30px;
+    margin-right: 30px;
 }
 
 .functionality-box {
@@ -70,9 +91,13 @@ button:hover {
     margin-top: 70px;
 }
 
+.functionality {
+    padding: 15px 100px 100px 100px;
+}
+
 .specs-table {
     background-color: #2F3C5F;
-    margin-bottom: 130px;
+    margin-bottom: 30px;
 }
 
 .col-title {
