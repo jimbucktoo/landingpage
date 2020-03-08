@@ -71,39 +71,6 @@
                     </div>
                 </div>
             </div>
-            <center>
-                <div class="inputPortal hide">
-                    <br>
-                    <br>
-                    <br>
-                    <h6>User:
-                        <%= fullnameVar %>
-                    </h6>
-                    <% if(fullnameVar.toLowerCase() === "landingpage") { %>
-                        <p>Authenticated:
-                            <%=fullnameVar%>
-                        </p>
-                        <% } else { %>
-                            <p>Error Authenticating:
-                                <%=fullnameVar%>
-                            </p>
-                            <% } %>
-                                <br>
-                                <h6>Product List:
-                                    <%= productsVar %>
-                                </h6>
-                                <br>
-                                <form action="/addproduct" method="POST">
-                                    <input type="text" name="newproduct" placeholder="Enter Product Name">
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <button class="btn" type="submit" name="action">Submit
-                                <i class="material-icons right">send</i>
-                            </button>
-                                </form>
-                </div>
-            </center>
             <br>
             <div style="margin: 10px 0px 10px 0px; background-color: #2F3C5F;">
                 <div class="spacer">
@@ -125,6 +92,9 @@
                     <input type="text" class="emailCapture" id="emailInput" placeholder="Your Email">
                     <button class="waves-effect waves-light btn-large emailSubmit tertiaryGoal" onclick="emailCapture()">Start Free</button>
                 </center>
+                <br>
+                <br>
+                <center><a class="demo-link pointer" href="/demos.html">or schedule a free live demo with our team →</a></center>
             </div>
             <br>
             <br>

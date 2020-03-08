@@ -15,6 +15,14 @@ body {
     flex-direction: column;
 }
 
+.demo-link {
+    color: #717171;
+}
+
+.demo-link:hover {
+    color: black;
+}
+
 .pointer {
     cursor: pointer;
 }
