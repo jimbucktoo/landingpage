@@ -366,6 +366,7 @@ button:hover {
     height: 42px;
     vertical-align: 10%;
     margin-left: 10px;
+    padding: 0px 30px 50px 30px;
 }
 
 .sidenavtitle {
