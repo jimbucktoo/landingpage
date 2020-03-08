@@ -40,12 +40,29 @@ button:hover {
 }
 
 .functionality-box {
-    background-color: #2F3C5F;
     min-height: 27vh;
+    color: black;
+    width: 50%;
+}
+
+.screenshot {
+    width: 50%;
+}
+
+.pricing {
+    padding: 10px 0px 0px 0px;
+    background-color: #2F3C5F;
+}
+
+.intro-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 .specs-table {
     background-color: #2F3C5F;
+    margin-bottom: 130px;
 }
 
 .col-title {
@@ -53,8 +70,6 @@ button:hover {
 }
 
 .package {
-    color: white;
-    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
 }
