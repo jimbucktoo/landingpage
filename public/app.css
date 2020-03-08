@@ -18,12 +18,12 @@ table {
 
 .spec-item {
     color: black;
-    margin-right: 100px;
+    margin-left: 30px;
 }
 
 .spec-item-alt {
     color: white;
-    margin-right: 100px;
+    margin-left: 30px;
 }
 
 ul {
@@ -60,14 +60,15 @@ button:hover {
 }
 
 .left-side-title {
-    text-align: center;
-    margin-left: 30px;
-    padding-top: 30px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
 }
 
 .right-side-title {
-    text-align: center;
-    padding-top: 30px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
 }
 
 .functionality-box {
