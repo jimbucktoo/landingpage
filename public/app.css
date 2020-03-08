@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 table {
     color: white;
 }
@@ -33,6 +37,12 @@ button:hover {
     border: 1px solid #026EFF;
     color: #026EFF;
     border-radius: 5px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
 }
 
 * {
@@ -338,8 +348,4 @@ button:hover {
 .action-btn {
     margin-top: 10px;
     margin-right: 10px;
-}
-
-.pointer {
-    cursor: pointer;
 }
