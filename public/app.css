@@ -9,6 +9,12 @@ body {
     margin-bottom: 100px;
 }
 
+.column-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -194,6 +200,7 @@ button:hover {
 
 .tertiaryGoal {
     background-color: #026EFF;
+    border-radius: 5px;
 }
 
 .delete {
