@@ -94,7 +94,7 @@ button:hover {
     padding-top: 10px;
 }
 
-.functionality-box {
+.features-box {
     min-height: 27vh;
     color: black;
     width: 50%;
@@ -116,7 +116,7 @@ button:hover {
     margin-top: 70px;
 }
 
-.functionality {
+.features {
     padding: 15px 100px 70px 100px;
 }
 
