@@ -1,3 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 300px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .overflow {
+        visibility: hidden;
+    }
+}
+
 body {
     caret-color: black;
     font-family: 'Roboto', sans-serif;
@@ -64,10 +80,6 @@ button:hover {
     text-decoration: underline;
     text-decoration-color: #2F3C5F;
     text-decoration-style: solid;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .left-side-title {
@@ -274,6 +286,7 @@ button:hover {
 
 .headline {
     max-width: 960px;
+    margin-top: 130px;
     font-size: 36px;
     font-weight: 700;
 }
@@ -333,18 +346,6 @@ button:hover {
 .price .grey {
     background-color: #eee;
     font-size: 20px;
-}
-
-@media only screen and (max-width: 300px) {
-    .columns {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .overflow {
-        visibility: hidden;
-    }
 }
 
 .footer-link-list {
