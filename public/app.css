@@ -217,6 +217,7 @@ button:hover {
 .tertiaryGoal {
     background-color: #026EFF;
     border-radius: 5px;
+    line-height: 50px;
 }
 
 .delete {
