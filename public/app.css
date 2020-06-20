@@ -364,12 +364,6 @@ button:hover {
     display: inline;
 }
 
-.hov:hover {
-    border-radius: 15px;
-    background-color: #eee;
-    box-shadow: 0 3px 3px black !important;
-}
-
 .emailCapture {
     border: none;
 }
