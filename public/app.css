@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 @media only screen and (max-width: 300px) {
     .columns {
         width: 100%;
@@ -14,53 +10,14 @@
     }
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    background-color: white;
     caret-color: black;
     font-family: 'Roboto', sans-serif;
-}
-
-.surveysPage {
-    border-radius: 15px;
-    width: 70%;
-    border: 1px solid black;
-    box-shadow: 0 3px 5px black !important;
-}
-
-.outer-flex {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.column-flex {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-
-.demo-link {
-    color: #717171;
-}
-
-.demo-link:hover {
-    color: black;
-}
-
-.pointer {
-    cursor: pointer;
-}
-
-table {
-    color: white;
-}
-
-.spec-item {
-    color: #313131;
-    margin-left: 30px;
-}
-
-.spec-item-alt {
-    color: #f1f1f1;
-    margin-left: 30px;
 }
 
 p {
@@ -71,140 +28,133 @@ input {
     text-align: center;
 }
 
-button {
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-button:hover {
-    border: 1px solid #026EFF;
-    color: #026EFF;
-    border-radius: 5px;
-}
-
-.underline:hover {
-    text-decoration: underline;
-    text-decoration-color: #2F3C5F;
-    text-decoration-style: solid;
-}
-
-.left-side-title {
-    text-align: left;
-    padding-left: 30px;
-    padding-top: 10px;
-}
-
-.right-side-title {
-    text-align: left;
-    padding-left: 30px;
-    padding-top: 10px;
-}
-
-.features-box {
-    min-height: 27vh;
-    color: black;
-    width: 50%;
-}
-
-.screenshot {
-    width: 50%;
-}
-
-.spacer {
-    color: white;
+.navbar {
     background-color: #2F3C5F;
-    padding: 3px 0px 10px 0px;
 }
 
-.intro-box {
+.cover {
+    background-image: url("https://d117h1jjiq768j.cloudfront.net/images/default-source/products/labs/labs-hero-image.jpg?Status=Temp&sfvrsn=432a5148_2");
+    height: 100%;
+    background-position: 30% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.survaidLogo {
+    margin-left: 1%;
+    overflow: hidden;
+}
+
+.category {
+    background-color: #2F3C5F;
+    margin-bottom: 30px;
+    padding: 5px 100px 10px 100px;
+}
+
+.categoryTitle {
+    padding: 0px 0px 0px 30px;
+    color: white;
+}
+
+.header {
+    margin-left:13vw;
+    margin-right: 13vw;
+    font-weight: bold;
+    color: white;
+}
+
+.headline {
+    max-width: 960px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: black;
+}
+
+.subheadline {
+    color: #525252;
+}
+
+.subheader {
+    line-height: 2em;
+    margin-left:45px;
+    margin-right: 45px;
+}
+
+.featureBox {
     display: flex;
     justify-content: center;
     margin-top: 70px;
 }
 
-.features {
-    padding: 15px 100px 70px 100px;
+.featureScreen {
+    width: 50%;
 }
 
-.specs-table {
+.featureDescription {
+    width: 50%;
+    text-align: center;
+}
+
+.title {
+    color: black;
+    text-align: center;
+}
+
+.titleIcon {
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.spacer {
+    margin: 10px 0px 10px 0px;
     background-color: #2F3C5F;
+}
+
+.subSpacer {
+    color: white;
+    background-color: #2F3C5F;
+    padding: 3px 0px 10px 0px;
+}
+
+.valueProps {
     margin-bottom: 30px;
 }
 
-.col-title {
-    font-weight: bold;
+.valueIcon {
+    font-size: 200px;
+    color: #2F3C5F;
 }
 
-.package {
-    padding-left: 30px;
-    padding-right: 30px;
+.valueCaption {
+    line-height: 1.6;
+    text-align: center;
+    margin: 30px auto;
+    color: #262e45;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .2px;
 }
 
-.hide {
-    display: none;
+.valueSubCaption {
+    line-height: 1.6;
+    font-size: 18px;
+    color: rgb(64, 80, 124);
 }
 
-.overflow {
-    overflow: hidden;
+.leadership {
+    margin: 100px 0px 100px 0px;
+    width: 100%;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-.navy {
-    background-color: #2F3C5F;
-}
-
-.blue {
-    background-color: #026EFF;
-}
-
-.white {
+.leadershipBox {
     background-color: white;
-}
-
-.black {
-    background-color: black;
-}
-
-.white-text {
-    color: white;
-}
-
-.black-text {
-    color: black;
-}
-
-.brand-logo {
-    margin-left: 1%;
-}
-
-::-webkit-input-placeholder {
-    text-align: center;
-}
-
-:-moz-placeholder {
-    text-align: center;
-    color: black;
-}
-
-::-moz-placeholder {
-    text-align: center;
-}
-
-:-ms-input-placeholder {
-    text-align: center;
-}
-
-.navbar {
-    background-color: #2F3C5F;
-}
-
-#map {
-    height: 300px;
-    width: 50%;
-    border: 1px solid black;
 }
 
 .targetGoal {
@@ -214,20 +164,13 @@ button:hover {
 
 .primaryGoal {
     background-color: #026EFF;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px black;
+    line-height: 50px;
 }
 
 .secondaryGoal {
     background-color: transparent;
-}
-
-.tertiaryGoal {
-    background-color: #026EFF;
-    border-radius: 5px;
-    line-height: 50px;
-}
-
-.delete {
-    background-color: red;
 }
 
 .targetGoal:hover {
@@ -240,6 +183,9 @@ button:hover {
 .primaryGoal:hover {
     color: #026EFF;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px black;
+    line-height: 50px;
 }
 
 .secondaryGoal:hover {
@@ -247,20 +193,18 @@ button:hover {
     background-color: white;
 }
 
-.tertiaryGoal:hover {
-    color: #026EFF;
-    background-color: white;
-}
-
-.delete:hover {
-    color: red;
-    background-color: white;
-    border: 1px solid red;
+.targetGoal:focus {
+    color: white;
+    background-color: #2F3C5F;
+    box-shadow: 0 3px 5px black !important;
 }
 
 .primaryGoal:focus {
     background-color: #026EFF;
     color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px black;
+    line-height: 50px;
 }
 
 .secondaryGoal:focus {
@@ -268,61 +212,72 @@ button:hover {
     color: white;
 }
 
-.tertiaryGoal:focus {
-    background-color: #026EFF;
+
+.sidenavtitle {
+    background-color: #2F3C5F;
     color: white;
+    padding-left: 30px;
 }
 
-.delete:focus {
-    background-color: red;
-    color: white;
-    border: 1px solid red;
+.features {
+    padding: 15px 100px 70px 100px;
 }
 
-.bg {
-    background-image: url("https://d117h1jjiq768j.cloudfront.net/images/default-source/products/labs/labs-hero-image.jpg?Status=Temp&sfvrsn=432a5148_2");
-    height: 100%;
-    background-position: 30% 15%;
-    background-repeat: no-repeat;
-    background-size: cover;
+.feature {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.inputPortal {
+.featureDetailsLeft {
     color: black;
-}
-
-.headline {
-    max-width: 960px;
-    margin-top: 35px;
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.promoIcon {
-    font-size: 200px;
-    color: #2F3C5F;
-}
-
-.promoCaption {
-    line-height: 1.6;
+    padding-bottom: 30px;
+    width: 50%;
     text-align: center;
-    margin: 30px auto;
-    color: #262e45;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: .2px;
 }
 
-.promoSubCaption {
-    line-height: 1.6;
-    font-size: 18px;
-    color: rgb(64, 80, 124);
+.featureDetailsRight {
+    color: black;
+    padding-bottom: 30px;
+    width: 50%;
+    text-align: center;
 }
 
-.columns {
-    float: left;
-    width: 33.3%;
-    padding: 8px;
+.screenshot {
+    width: 23%;
+    height: 23%;
+    margin-top: 30px;
+    border-radius: 35px;
+    box-shadow: 0 5px 5px black;  
+}
+
+.screenshotApp {
+    border-radius: 15px;
+    width: 70%;
+    border: 1px solid black;
+    box-shadow: 0 3px 5px black !important;
+}
+
+.footer {
+    background-color: #2F3C5F;
+    color: white;
+}
+
+.footerLinks {
+    text-align: center;
+}
+
+.footerLink {
+    margin-right: 10px;
+    display: inline;
+    color: white;
+}
+
+.copyright {
+    color: white !important;
+}
+
+.pricingBox {
+    margin-bottom: 50px;
 }
 
 .price {
@@ -338,7 +293,7 @@ button:hover {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
 }
 
-.price .header {
+.price .pricing {
     background-color: #111;
     color: white;
     font-size: 25px;
@@ -350,18 +305,25 @@ button:hover {
     text-align: center;
 }
 
-.price .grey {
-    background-color: #eee;
-    font-size: 20px;
+.pricingDescriptions {
+    color: white;
+    background-color: #2F3C5F;
 }
 
-.footer-link-list {
-    text-align: center;
+.pricingText {
+    color: black;
 }
 
-.footer-links {
-    margin-right: 10px;
-    display: inline;
+.link {
+    color: #717171;
+}
+
+.link:hover {
+    color: black;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 .emailCapture {
@@ -375,19 +337,18 @@ button:hover {
     padding: 0px 30px 50px 30px;
 }
 
-.sidenavtitle {
-    padding-left: 30px;
+::-webkit-input-placeholder {
+    text-align: center;
 }
 
-.module {
-    border: 1px solid black;
-    width: 100%;
-    background-color: transparent;
-    margin-top: 50px;
-    border-radius: 10px;
+:-moz-placeholder {
+    text-align: center;
 }
 
-.action-btn {
-    margin-top: 10px;
-    margin-right: 10px;
+::-moz-placeholder {
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
 }

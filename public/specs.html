@@ -12,13 +12,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     </head>
 
-    <body class="white">
+    <body>
         <div>
             <div class="row" style="margin-bottom: 0px;">
                 <nav>
-                    <div class="nav-wrapper navbar z-depth-2">
-                        <a href="/" class="brand-logo overflow"><i class="large material-icons"
-                                                                   width="30px">assignment</i>Survaid</a>
+                    <div class="nav-wrapper navbar z-depth-3">
+                        <a href="/" class="brand-logo survaidLogo"><i class="material-icons">assignment</i>Survaid</a>
                         <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
                             <li><a href="#" class="waves-effect waves-light btn secondaryGoal z-depth-0 specs">Participate</a></li>
@@ -28,89 +27,73 @@
                     </div>
                 </nav>
                 <ul class="sidenav" id="mobile-demo">
-                    <li class="navy white-text sidenavtitle">Survaid</li>
+                    <li class="sidenavtitle">Survaid</li>
                     <li><a href="/specs.html">Participate</a></li>
                     <li><a href="/demos.html">Observe</a></li>
                     <li><a href="/pricing.html">Plans & Pricing</a></li>
                 </ul>
                 <br>
-                <div class="specs-table" style="padding: 5px 100px 10px 100px;">
-                    <h3 style="padding: 0px 0px 0px 30px; color: white;"><i class="material-icons" style="font-size: 35px; margin-right: 15px;">people</i>Participate</h3>
+                <div class="category">
+                    <h3 class="categoryTitle"><i class="material-icons titleIcon">people</i>Participate</h3>
                 </div>
                 <div class="features">
-                    <div class="outer-flex">
-                        <div style="color: black; padding-bottom: 30px;" width="50%">
-                            <h3 class="left-side-title">
-                                To join as a participant:
+                    <div class="feature">
+                        <div class="featureDetailsLeft">
+                            <h3 class="title">
+                                Get Started
                             </h3>
+                            <p>Get Started</p>
                             <br>
-                            <ul class="browser-default">
-                                <li class="spec-item">
-                                    <h5>Below the login button, select "Sign up now" <br> to create an account</h5>
-                                </li>
-                                <br>
-                            </ul>
+                            <button class="waves-effect waves-light btn-large primaryGoal">Learn More</button>
                         </div>
-                        <img src="Start.png" width="23%" height="23%" style="margin-top: 30px; border-radius: 35px; box-shadow: 0 5px 5px black;" />
+                        <img class="screenshot" src="Start.png"/>
                     </div>
                     <br>
                     <br>
                     <br>
-                    <div class="outer-flex">
-                        <img src="Surveys.png" width="23%" height="23%" style="margin-top: 30px; border-radius: 35px; box-shadow: 0 5px 5px black;" />
-                        <div style="background-color: #2F3C5F; color: white; padding-bottom: 30px; width: 50%; border-radius: 15px; box-shadow: 0 5px 5px black;">
-                            <h3 class="right-side-title">
+                    <div class="feature">
+                        <img class="screenshot" src="Surveys.png"/>
+                        <div class="featureDetailsRight">
+                            <h3 class="title">
                                 Surveys
                             </h3>
+                            <p>Surveys</p>
                             <br>
-                            <ul class="browser-default">
-                                <li class="spec-item-alt">
-                                    <h5>Surveys</h5>
-                                </li>
-                                <button class="waves-effect waves-light btn-large primaryGoal" style="margin-top: 3vh; margin-bottom: 1vh; margin-left: 1vw; border-radius: 5px; box-shadow: 0 3px 5px black;">Learn More</button>
-                            </ul>
+                            <button class="waves-effect waves-light btn-large primaryGoal" style="margin-top: 3vh; margin-bottom: 1vh; margin-left: 1vw; border-radius: 5px; box-shadow: 0 3px 5px black;">Learn More</button>
                         </div>
                     </div>
                     <br>
                     <br>
                     <br>
-                    <div class="outer-flex">
-                        <div style="color: black; padding-bottom: 30px; width: 50%;">
-                            <h3 class="left-side-title">
+                    <div class="feature">
+                        <div class="featureDetailsLeft">
+                            <h3 class="title">
                                 Real-Time Messenging
                             </h3>
+                            <p>Real-Time Messenging</p>
                             <br>
-                            <ul class="browser-default">
-                                <li class="spec-item">
-                                    <h5>Real-Time Messenging</h5>
-                                </li>
-                                <button class="waves-effect waves-light btn-large primaryGoal" style="margin-top: 3vh; margin-bottom: 1vh; margin-left: 1vw; border-radius: 5px; box-shadow: 0 3px 5px black;">Learn More</button>
-                            </ul>
+                            <button class="waves-effect waves-light btn-large primaryGoal">Learn More</button>
                         </div>
-                        <img src="Messages.png" width="23%" height="23%" style="margin-top: 30px; border-radius: 35px; box-shadow: 0 5px 5px black;" />
+                        <img class="screenshot" src="Messages.png"/>
                     </div>
                     <br>
                     <br>
                     <br>
-                    <div class="outer-flex">
-                        <img src="Profile.png" width="23%" height="23%" style="margin-top: 30px; border-radius: 35px; box-shadow: 0 5px 5px black;" />
-                        <div style="background-color: #2F3C5F; color: white; padding-bottom: 30px; width: 50%; border-radius: 15px; box-shadow: 0 5px 5px black;">
-                            <h3 class="right-side-title">
+                    <div class="feature">
+                        <img class="screenshot" src="Profile.png"/>
+                        <div class="featureDetailsRight">
+                            <h3 class="title">
                                 Profile
                             </h3>
+                            <p>Profile</p>
                             <br>
-                            <ul class="browser-default">
-                                <li class="spec-item-alt">
-                                    <h5>Profile</h5>
-                                </li>
-                                <button class="waves-effect waves-light btn-large primaryGoal" style="margin-top: 3vh; margin-bottom: 1vh; margin-left: 1vw; border-radius: 5px; box-shadow: 0 3px 5px black;">Learn More</button>
-                            </ul>
+                            <button class="waves-effect waves-light btn-large primaryGoal">Learn More</button>
                         </div>
                     </div>
                 </div>
                 <br>
                 <center>
-                    <h2 class="black-text headline">Want to participate in a survey?</h2>
+                    <h4 class="headline">Want to participate in a survey?</h4>
                     <br>
                     <div>
                         <a href="https://play.google.com/"><img width="15%" src="googleplay.png"/></a>
@@ -122,16 +105,16 @@
                 <br>
                 <br>
                 <br>
-                <div style="margin: 10px 0px 10px 0px; background-color: #2F3C5F;">
-                    <div class="spacer">
+                <div class="spacer">
+                    <div class="subSpacer">
                         <center>
-                            <h3><i class="material-icons" style="font-size: 35px; margin-right: 15px;">power_settings_new</i>Get Started</h3>
+                            <h3><i class="material-icons titleIcon">power_settings_new</i>Get Started</h3>
                         </center>
                     </div>
                 </div>
                 <center>
-                    <h2 class="black-text headline">Build your first dynamic mobile survey in minutes</h2>
-                    <h5 style="color: #525252; ">Start capturing powerful and precise mobile data with no credit card required</h5>
+                    <h4 class="headline">Build your first dynamic mobile survey in minutes</h2>
+                    <h5 class="subheadline">Start capturing powerful and precise mobile data. No credit card required.</h5>
                 </center>
                 <br>
                 <br>
@@ -139,27 +122,27 @@
                 <div class="container">
                     <center>
                         <input type="text" class="emailCapture" id="emailInput" placeholder="Your Email">
-                        <button class="waves-effect waves-light btn-large emailSubmit tertiaryGoal" onclick="emailCapture()">Start Free</button>
+                        <button class="waves-effect waves-light btn-large emailSubmit primaryGoal" onclick="emailCapture()">Start Free</button>
                     </center>
                     <br>
                     <br>
-                    <center><a class="demo-link pointer" href="/demos.html">or schedule a free live demo with our team →</a></center>
+                    <center><a class="link pointer" href="/demos.html">or schedule a free live demo with our team →</a></center>
                 </div>
                 <br>
                 <br>
                 <br>
-                <footer class="page-footer white-text navy" style="margin-bottom: 0px;">
+                <footer class="page-footer footer">
                     <div class="row">
-                        <div class="footer-link-list">
-                            <a class="white-text footer-links" href="/demo.html">Schedule Demo</a>
-                            <a class="white-text text-lighten-3 footer-links" href="/specs.html">Features</a>
-                            <a class="white-text text-lighten-3 footer-links" href="/pricing.html">Plans & Pricing</a>
-                            <a class="white-text text-lighten-3 footer-links" href="#">Contact</a>
+                        <div class="footerLinks">
+                            <a class="footerLink" href="/specs.html">Participate</a>
+                            <a class="footerLink" href="/demo.html">Observe</a>
+                            <a class="footerLink" href="/pricing.html">Plans & Pricing</a>
+                            <a class="footerLink" href="#">Contact</a>
                         </div>
                     </div>
                     <center>
-                        <div class="footer-copyright">
-                            <div class="container white-text">
+                        <div class="footer-copyright copyright">
+                            <div class="container">
                                 © 2020 Survaid LLC
                             </div>
                         </div>
