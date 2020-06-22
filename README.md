@@ -1,6 +1,6 @@
-# landingpage
+# survaid
 
-landingpage, A.K.A Survaid, is a landing page template website developed utilizing behavior-based landing page optimization methodologies. Currently, it is being utilized to market my colleagues mobile sensor data collection software for MVP testing. The landing page template is integrated with Google Analytics to track landing page performance data. Future development will be towards creating a marketplace for A.I. generated custom templates optimized for unique marketing models.
+Survaid provides a sophisticated mobile data collection toolkit, including a broad array of question types, advanced notification configurations, compliance monitoring, and internal/external device integration. Our software is a cross-platform system for collecting information from participants in real-time, over time.
 
 ## Technologies
 
