@@ -166,6 +166,9 @@ input {
 }
 
 .targetGoal {
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
     background-color: #2F3C5F;
     box-shadow: 0 3px 5px black !important;
 }
