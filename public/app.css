@@ -30,6 +30,12 @@ input {
     margin: 0 auto;
 }
 
+.introButton {
+    margin: 10px;
+}
+
+.pricing
+
 .overviewButtons {
     display: flex;
     justify-content: center;
@@ -38,6 +44,7 @@ input {
 
 .overviewButton {
     overflow: visible;
+    margin: 10px;
 }
 
 .navbar {
@@ -335,6 +342,13 @@ input {
 
 .price:hover {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.pricingScreenshot {
+    width: 50%;
+    border: 3px solid #2F3C5F;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px black;
 }
 
 .price .pricing {
