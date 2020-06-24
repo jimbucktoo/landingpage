@@ -49,6 +49,11 @@ input {
     background-color: #2F3C5F;
 }
 
+.freeTrial {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .cover {
     background-image: url("https://d117h1jjiq768j.cloudfront.net/images/default-source/products/labs/labs-hero-image.jpg?Status=Temp&sfvrsn=432a5148_2");
     background-position: 30% 15%;
@@ -80,7 +85,6 @@ input {
 }
 
 .headline {
-    max-width: 960px;
     margin-top: 70px;
     padding: 0% 5%;
     font-weight: bold;
@@ -88,6 +92,7 @@ input {
 }
 
 .subheadline {
+    margin: 10px 50px;
     color: #525252;
 }
 
