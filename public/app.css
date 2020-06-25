@@ -280,6 +280,7 @@ input {
     border-radius: 15px;
     width: 600px;
     height: 450px;
+    margin-top: 30px;
     border: 1px solid black;
     box-shadow: 0 3px 5px black !important;
 }
@@ -573,6 +574,15 @@ input {
         font-size: 15px;
         color: #525252;
     }
+
+    .screenshotApp {
+        border-radius: 15px;
+        width: 600px;
+        height: 500px;
+        margin-top: 100px;
+        border: 1px solid black;
+        box-shadow: 0 3px 5px black !important;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -597,5 +607,14 @@ input {
         width: 100%;
         padding-top: 50px;
         text-align: center;
+    }
+
+    .screenshotApp {
+        border-radius: 15px;
+        width: 600px;
+        height: 500px;
+        margin-top: 100px;
+        border: 1px solid black;
+        box-shadow: 0 3px 5px black !important;
     }
 }
