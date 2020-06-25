@@ -51,7 +51,7 @@
         </div>
         <div class="container featureBox">
             <div class="featureScreen">
-                <img class="z-depth-2 homeScreen" src="Start.png" width="300vw" height="600vw" style="border:2px solid black; border-radius: 35px; box-shadow: 0 3px 5px black;">
+                <img class="z-depth-2" src="Start.png" width="270vw" height="600vw" style="border:2px solid black; border-radius: 35px; box-shadow: 0 3px 5px black;">
             </div>
             <div class="featureDescription">
                 <h3 class="title"><i class="material-icons titleIcon">touch_app</i>Overview</h3>
@@ -203,12 +203,6 @@ function emailCapture() {
 
 $(document).ready(function() {
     $('.sidenav').sidenav();
-
-    $('.homeScreen').mouseenter(function() {
-        $(this).addClass('z-depth-3')
-    }).mouseleave(function() {
-        $(this).removeClass('z-depth-3')
-    })
 
     $('.features').click(function() {
         window.location = "/features.html"
