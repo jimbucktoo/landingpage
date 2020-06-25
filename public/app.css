@@ -232,7 +232,7 @@ input {
 }
 
 .pricingScreenshot {
-    width: 70vw;
+    width: 50vw;
     border: 3px solid #2F3C5F;
     border-radius: 5px;
     box-shadow: 0 3px 5px black;
@@ -418,7 +418,7 @@ input {
     text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
 }
 
 @media screen and (max-width: 768px) {
@@ -487,6 +487,14 @@ input {
 
     .overflow {
         visibility: hidden;
+    }
+
+    .pricingScreenshot {
+        width: 90vw;
+        border: 3px solid #2F3C5F;
+        border-radius: 5px;
+        box-shadow: 0 3px 5px black;
+        margin-bottom: 50px;
     }
 
     .screenshot {
