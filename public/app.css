@@ -73,7 +73,7 @@ input {
 .feature {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .featureBox {
@@ -94,16 +94,12 @@ input {
 
 .featureDetailsLeft {
     color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
     width: 50%;
     text-align: center;
 }
 
 .featureDetailsRight {
     color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
     width: 50%;
     text-align: center;
 }
@@ -275,7 +271,7 @@ input {
 .screenshot {
     width: 300px;
     height: 600px;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 35px;
     box-shadow: 0 5px 5px black;  
 }
@@ -284,7 +280,6 @@ input {
     border-radius: 15px;
     width: 600px;
     height: 450px;
-    margin-top: 100px;
     border: 1px solid black;
     box-shadow: 0 3px 5px black !important;
 }
@@ -460,8 +455,6 @@ input {
 
     .featureDetailsLeft {
         color: black;
-        padding-top: 50px;
-        padding-bottom: 50px;
         width: 100%;
         text-align: center;
     }
@@ -469,8 +462,6 @@ input {
     .featureDetailsRight {
         color: black;
         padding-top: 50px;
-        padding-bottom: 50px;
-        width: 100%;
         text-align: center;
     }
 
@@ -543,16 +534,12 @@ input {
 
     .featureDetailsLeft {
         color: black;
-        padding-top: 50px;
-        padding-bottom: 50px;
         width: 100%;
         text-align: center;
     }
 
     .featureDetailsRight {
         color: black;
-        padding-top: 50px;
-        padding-bottom: 50px;
         width: 100%;
         text-align: center;
     }
@@ -584,16 +571,12 @@ input {
 
     .featureDetailsLeft {
         color: black;
-        padding-top: 50px;
-        padding-bottom: 50px;
         width: 100%;
         text-align: center;
     }
 
     .featureDetailsRight {
         color: black;
-        padding-top: 50px;
-        padding-bottom: 50px;
         width: 100%;
         text-align: center;
     }
