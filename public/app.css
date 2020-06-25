@@ -33,6 +33,7 @@ input {
 .category {
     background-color: #2F3C5F;
     padding: 5px 10px 10px 10px;
+    margin-bottom: 50px;
 }
 
 .categoryTitle {
@@ -83,7 +84,7 @@ input {
 }
 
 .featureContainer {
-    padding: 15px 100px 70px 100px;
+    padding: 0px 100px 70px 100px;
 }
 
 .featureDescription {
