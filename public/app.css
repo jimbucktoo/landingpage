@@ -204,9 +204,6 @@ input {
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-}
-
-.price:hover {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
 }
 
@@ -217,7 +214,7 @@ input {
 }
 
 .price .pricing {
-    background-color: #111;
+    background-color: #505050;
     color: white;
     font-size: 25px;
 }
@@ -240,12 +237,13 @@ input {
 
 .pricingDescriptions {
     color: white;
-    background-color: #2F3C5F;
+    background-color: black;
+    font-size: 16px;
 }
 
 .pricingQuantities {
     color: white;
-    background-color: #67778e;
+    background-color: #2F3C5F;
 }
 
 .pricingText {
@@ -309,6 +307,18 @@ input {
 .secondaryGoal:hover {
     color: #2F3C5F;
     background-color: white;
+}
+
+.selectPlan1 {
+    margin-top: 30px;
+}
+
+.selectPlan2 {
+    margin-top: 30px;
+}
+
+.selectPlan3 {
+    margin-top: 30px;
 }
 
 .sidenavtitle {
