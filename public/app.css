@@ -57,6 +57,7 @@ input {
     margin-right: 30px;
     margin-left: 30px;
     text-align: left;
+    color: #67778e;
 }
 
 .emailCapture {
@@ -90,18 +91,19 @@ input {
 .featureDescription {
     width: 100%;
     text-align: center;
+    color: #67778e;
 }
 
 .featureDetailsLeft {
-    color: black;
     width: 50%;
     text-align: center;
+    color: #67778e;
 }
 
 .featureDetailsRight {
-    color: black;
     width: 50%;
     text-align: center;
+    color: #67778e;
 }
 
 .featureScreen {
