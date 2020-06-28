@@ -48,10 +48,14 @@
                         <div class="col l4 m12 s12">
                             <ul class="price">
                                 <li class="pricing">Standard</li>
+                                <li class="pricingQuantities">($10/user/month)</li>
                                 <li class="pricingDescriptions">Get started now with the essential experimentation tools to help you optimize your web experiences.</li>
-                                <li class="pricingText">Mobile API</li>
-                                <li class="pricingText">50 GB Storage</li>
-                                <li class="pricingText">Discrete/Continuous</li>
+                                <li class="pricingText">1 Survey</li>
+                                <li class="pricingText">10 Participants Per Survey</li>
+                                <li class="pricingText">10 Data Visualization Graphs</li>
+                                <li class="pricingText">Real-Time Messaging</li>
+                                <li class="pricingText">Offline Surveys</li>
+                                <li class="pricingText">User Management</li>
                             </ul>
                             <center>
                                 <br>
@@ -64,10 +68,16 @@
                         <div class="col l4 m12 s12">
                             <ul class="price">
                                 <li class="pricing" style="background-color:#026EFF">Business</li>
+                                <li class="pricingQuantities">($20/user/month)</li>
                                 <li class="pricingDescriptions">Drive experimentation across all of your digital touchpoints and begin collaborating across teams.</li>
-                                <li class="pricingText">Web API</li>
-                                <li class="pricingText">100 GB Storage</li>
-                                <li class="pricingText">Discrete/Continuous</li>
+                                <li class="pricingText">10 Surveys</li>
+                                <li class="pricingText">100 Participants Per Survey</li>
+                                <li class="pricingText">20 Data Visualization Graphs</li>
+                                <li class="pricingText">Real-Time Messaging</li>
+                                <li class="pricingText">Offline Surveys</li>
+                                <li class="pricingText">User Management</li>
+                                <li class="pricingText">Data Export</li>
+                                <li class="pricingText">HIPAA Compliant</li>
                             </ul>
                             <center>
                                 <br>
@@ -80,10 +90,18 @@
                         <div class="col l4 m12 s12">
                             <ul class="price">
                                 <li class="pricing">Enterprise</li>
+                                <li class="pricingQuantities">($50/user/month)</li>
                                 <li class="pricingDescriptions">Scale experiments 10X, with advanced collaboration, reporting, targeting, personalization & more.</li>
-                                <li class="pricingText">Custom API</li>
-                                <li class="pricingText">150 GB Storage</li>
-                                <li class="pricingText">Discrete/Continuous</li>
+                                <li class="pricingText">Unlimited Surveys</li>
+                                <li class="pricingText">Unlimited Participants Per Survey</li>
+                                <li class="pricingText">Unlimited Data Visualization Graphs</li>
+                                <li class="pricingText">Real-Time Messaging</li>
+                                <li class="pricingText">Offline Surveys</li>
+                                <li class="pricingText">User Management</li>
+                                <li class="pricingText">Data Export</li>
+                                <li class="pricingText">HIPAA Compliant</li>
+                                <li class="pricingText">Audit History</li>
+                                <li class="pricingText">Automated Push Reporting</li>
                             </ul>
                             <center>
                                 <br>
@@ -148,37 +166,37 @@
                         storageBucket: "landingpage-3a359.appspot.com",
                         messagingSenderId: "704168931957"
                     };
-firebase.initializeApp(config);
+                    firebase.initializeApp(config);
 
-var database = firebase.database();
+                    var database = firebase.database();
 
-function writeUserData(userId, name, email) {
-    firebase.database().ref('users/' + userId).set({
-        username: name,
-        email: email
-    });
-};
+                    function writeUserData(userId, name, email) {
+                        firebase.database().ref('users/' + userId).set({
+                            username: name,
+                            email: email
+                        });
+                    };
 
-function emailCapture() {
-    var emailInput = document.getElementById("emailInput").value;
-    writeUserData("jimbucktoo", "jimbucktoo", emailInput);
-};
+                    function emailCapture() {
+                        var emailInput = document.getElementById("emailInput").value;
+                        writeUserData("jimbucktoo", "jimbucktoo", emailInput);
+                    };
 
-$(document).ready(function() {
-    $('.sidenav').sidenav();
+                    $(document).ready(function() {
+                        $('.sidenav').sidenav();
 
-    $('.features').click(function() {
-        window.location = "/features.html"
-    })
+                        $('.features').click(function() {
+                            window.location = "/features.html"
+                        })
 
-    $('.pricing').click(function() {
-        window.location = "/pricing.html"
-    })
+                        $('.pricing').click(function() {
+                            window.location = "/pricing.html"
+                        })
 
-    $('.participate').click(function() {
-        window.location = "/participate.html"
-    })
-});
+                        $('.participate').click(function() {
+                            window.location = "/participate.html"
+                        })
+                    });
                 </script>
     </body>
 

@@ -243,6 +243,11 @@ input {
     background-color: #2F3C5F;
 }
 
+.pricingQuantities {
+    color: white;
+    background-color: #67778e;
+}
+
 .pricingText {
     color: black;
 }
