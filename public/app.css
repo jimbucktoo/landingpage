@@ -548,6 +548,21 @@ input {
         margin-bottom: 50px;
     }
 
+    .question { 
+        width: 100%;
+        padding: 0% 3%;
+    }
+
+    .questions {
+        margin-top: 50px;
+    }
+
+    .questionRow {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
     .screenshot {
         width: 270px;
         height: 600px;
