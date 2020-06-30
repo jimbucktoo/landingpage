@@ -709,12 +709,11 @@ input {
 
     .price {
         list-style-type: none;
-        border: 1px solid #eee;
         margin: 0px;
         padding: 0px;
         -webkit-transition: 0.3s;
         transition: 0.3s;
-        box-shadow: 0 8px 12px 0 black;
+        box-shadow: 0 8px 12px 0 #505050;
     }
 
     .pricingBox {
@@ -742,7 +741,7 @@ input {
     .pricingSubHeadline {
         margin: 10px 50px;
         font-size: 20px;
-        color: #525252;
+        color: #505050;
     }
 
     .reverse {
