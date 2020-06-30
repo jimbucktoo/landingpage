@@ -355,7 +355,7 @@ input {
 .screenshotApp {
     border-radius: 15px;
     width: 600px;
-    height: 430px;
+    height: 450px;
     margin-top: 30px;
     border: 1px solid black;
     box-shadow: 0 3px 5px black !important;
@@ -594,8 +594,8 @@ input {
 
     .screenshotApp {
         border-radius: 15px;
-        width: 500px;
-        height: 375px;
+        width: 600px;
+        height: 450px;
         margin-top: 0px;
         border: 1px solid black;
         box-shadow: 0 3px 5px black !important;
@@ -714,8 +714,8 @@ input {
 
     .screenshotApp {
         border-radius: 15px;
-        width: 500px;
-        height: 375px;
+        width: 600px;
+        height: 450px;
         margin-top: 0px;
         border: 1px solid black;
         box-shadow: 0 3px 5px black !important;
