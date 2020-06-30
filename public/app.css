@@ -351,7 +351,7 @@ input {
     height: 600px;
     margin-top: 50px;
     border-radius: 35px;
-    border: 1px solid #505050;
+    border: 1px solid black;
     box-shadow: 0 5px 5px #505050;
 }
 
@@ -360,8 +360,8 @@ input {
     width: 600px;
     height: 450px;
     margin-top: 30px;
-    border: 1px solid #505050;
-    box-shadow: 0 5px 5px #505050;
+    border: 1px solid black;
+    box-shadow: 0 5px 5px #505050 !important;
 }
 
 #screenshotContent {
@@ -604,7 +604,8 @@ input {
         height: 600px;
         margin-top: 0px;
         border-radius: 35px;
-        box-shadow: 0 5px 5px black;  
+        border: 1px solid black;
+        box-shadow: 0 5px 5px #505050;
     }
 
     .screenshotApp {
@@ -613,12 +614,12 @@ input {
         height: 450px;
         margin-top: 0px;
         border: 1px solid black;
-        box-shadow: 0 3px 5px black !important;
+        box-shadow: 0 5px 5px #505050 !important;
     }
 
     #screenshotContent {
         border: 1px solid black;
-        box-shadow: 0 3px 5px black !important;
+        box-shadow: 0 5px 5px #505050 !important;
     }
 
     .title {
@@ -756,7 +757,8 @@ input {
         height: 600px;
         margin-top: 0px;
         border-radius: 35px;
-        box-shadow: 0 5px 5px black;  
+        border: 1px solid black;
+        box-shadow: 0 5px 5px #505050;
     }
 
     .screenshotApp {
@@ -765,12 +767,12 @@ input {
         height: 450px;
         margin-top: 0px;
         border: 1px solid black;
-        box-shadow: 0 3px 5px black !important;
+        box-shadow: 0 5px 5px #505050 !important;
     }
 
     #screenshotContent {
         border: 1px solid black;
-        box-shadow: 0 3px 5px black !important;
+        box-shadow: 0 5px 5px #505050 !important;
     }
 
     .subheadline {
@@ -953,7 +955,8 @@ input {
         height: 600px;
         margin-top: 0px;
         border-radius: 35px;
-        box-shadow: 0 5px 5px black;  
+        border: 1px solid black;
+        box-shadow: 0 5px 5px #505050;
     }
 
     .screenshotApp {
@@ -962,12 +965,12 @@ input {
         height: 360px;
         margin-top: 0px;
         border: 1px solid black;
-        box-shadow: 0 3px 5px black !important;
+        box-shadow: 0 5px 5px #505050 !important;
     }
 
     #screenshotContent {
         border: 1px solid black;
-        box-shadow: 0 3px 5px black !important;
+        box-shadow: 0 5px 5px #505050 !important;
     }
 
     .subheader {
@@ -1059,7 +1062,8 @@ input {
         height: 600px;
         margin-top: 0px;
         border-radius: 35px;
-        box-shadow: 0 5px 5px black;  
+        border: 1px solid black;
+        box-shadow: 0 5px 5px #505050;
     }
 
     .screenshotApp {
@@ -1068,12 +1072,12 @@ input {
         height: 240px;
         margin-top: 0px;
         border: 1px solid black;
-        box-shadow: 0 3px 5px black !important;
+        box-shadow: 0 5px 5px #505050 !important;
     }
 
     #screenshotContent {
         border: 1px solid black;
-        box-shadow: 0 3px 5px black !important;
+        box-shadow: 0 5px 5px #505050 !important;
     }
 
     .title {
