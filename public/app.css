@@ -232,7 +232,7 @@ input {
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+    box-shadow: 0 8px 12px 0 black;
 }
 
 .price li {
@@ -481,10 +481,14 @@ input {
     color: #2F3C5F;
 }
 
+.valueProp {
+    text-align: center;
+    margin: 0px auto 100px auto;
+}
+
 .valueProps {
     width: 100%;
     margin: 0px auto;
-    margin-bottom: 30px;
 }
 
 .valueSubCaption {
@@ -623,10 +627,14 @@ input {
         margin-right: 30px;
     }
 
+    .valueProp {
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
+
     .valueProps {
-        width: 90%;
+        width: 100%;
         margin: 0px auto;
-        margin-bottom: 30px;
     }
 }
 
@@ -707,7 +715,7 @@ input {
         padding: 0px;
         -webkit-transition: 0.3s;
         transition: 0.3s;
-        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+        box-shadow: 0 8px 12px 0 black;
     }
 
     .pricingBox {
@@ -778,16 +786,20 @@ input {
         margin-right: 30px;
     }
 
+    .valueProp {
+        text-align: center;
+        margin: 0px auto 100px auto;
+    }
+
     .valueProps {
-        width: 70%;
+        width: 100%;
         margin: 0px auto;
-        margin-bottom: 30px;
     }
 
     .valueSubCaption {
         line-height: 1.6;
         font-size: 18px;
-        color: rgb(64, 80, 124);
+        color: #67778e;
         flex-wrap: nowrap;
         margin: 30px 20%;
     }
@@ -980,10 +992,14 @@ input {
         margin-right: 30px;
     }
 
+    .valueProp {
+        text-align: center;
+        margin: 0px auto 100px auto;
+    }
+
     .valueProps {
-        width: 70%;
+        width: 100%;
         margin: 0px auto;
-        margin-bottom: 30px;
     }
 }
 
@@ -1067,9 +1083,13 @@ input {
         margin-right: 30px;
     }
 
+    .valueProp {
+        text-align: center;
+        margin: 0px auto 100px auto;
+    }
+
     .valueProps {
         width: 100%;
         margin: 0px auto;
-        margin-bottom: 30px;
     }
 }
