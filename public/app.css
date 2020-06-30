@@ -913,7 +913,7 @@ input {
 
     .overviewTitle {
         color: black;
-        text-align: center;
+        text-align: left;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -1048,7 +1048,7 @@ input {
 
     .overviewTitle {
         color: black;
-        text-align: center;
+        text-align: left;
         margin-left: 30px;
         margin-right: 30px;
     }
