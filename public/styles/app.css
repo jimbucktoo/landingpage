@@ -433,6 +433,7 @@ input {
 .survaidLogo {
     margin-left: 1%;
     overflow: hidden;
+    line-height: 67px;
 }
 
 .targetGoal {
@@ -1018,6 +1019,15 @@ input {
     .valueProps {
         width: 100%;
         margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .survaidLogo {
+        margin-left: 1%;
+        overflow: hidden;
+        line-height: 61px;
     }
 }
 
