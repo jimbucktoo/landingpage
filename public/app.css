@@ -210,7 +210,7 @@ input {
 
 .overviewScreen {
     border:2px solid black;
-    border-radius: 35px;
+    border-radius: 30px;
     box-shadow: 0 5px 5px black;
 }
 
@@ -350,7 +350,7 @@ input {
     width: 270px;
     height: 600px;
     margin-top: 50px;
-    border-radius: 35px;
+    border-radius: 30px;
     border: 1px solid black;
     box-shadow: 0 5px 5px black;
 }
@@ -603,7 +603,7 @@ input {
         width: 270px;
         height: 600px;
         margin-top: 0px;
-        border-radius: 35px;
+        border-radius: 30px;
         border: 1px solid black;
         box-shadow: 0 5px 5px black;
     }
@@ -756,7 +756,7 @@ input {
         width: 270px;
         height: 600px;
         margin-top: 0px;
-        border-radius: 35px;
+        border-radius: 30px;
         border: 1px solid black;
         box-shadow: 0 5px 5px black;
     }
@@ -954,7 +954,7 @@ input {
         width: 270px;
         height: 600px;
         margin-top: 0px;
-        border-radius: 35px;
+        border-radius: 30px;
         border: 1px solid black;
         box-shadow: 0 5px 5px black;
     }
@@ -1061,7 +1061,7 @@ input {
         width: 270px;
         height: 600px;
         margin-top: 0px;
-        border-radius: 35px;
+        border-radius: 30px;
         border: 1px solid black;
         box-shadow: 0 5px 5px black;
     }
