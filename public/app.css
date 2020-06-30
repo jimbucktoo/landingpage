@@ -527,8 +527,8 @@ input {
 
     .faq {
         text-align: center;
-        margin-top: 50px;
-        margin-bottom: 100px;
+        margin-top: 30px;
+        margin-bottom: 50px;
     }
 
     .feature {
@@ -1036,7 +1036,6 @@ input {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-
 
     .featureContainer {
         padding: 0px 0px 50px 0px;
