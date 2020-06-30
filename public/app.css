@@ -227,16 +227,15 @@ input {
 
 .price {
     list-style-type: none;
-    border: 1px solid #eee;
     margin: 0;
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    box-shadow: 0 8px 12px 0 black;
+    box-shadow: 0 8px 12px 0 #505050;
 }
 
 .price li {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #505050;
     padding: 20px;
     text-align: center;
 }
