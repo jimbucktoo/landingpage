@@ -211,7 +211,7 @@ input {
 .overviewScreen {
     border:2px solid black;
     border-radius: 35px;
-    box-shadow: 0 3px 5px black;
+    box-shadow: 0 5px 5px black;
 }
 
 .overviewTitle {
@@ -231,7 +231,7 @@ input {
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    box-shadow: 0 5px 5px #505050;
+    box-shadow: 0 5px 5px black;
     border-radius: 5px;
 }
 
@@ -274,7 +274,7 @@ input {
     width: 50vw;
     border: 3px solid #2F3C5F;
     border-radius: 5px;
-    box-shadow: 0 3px 5px black;
+    box-shadow: 0 5px 5px black;
     margin-bottom: 50px;
 }
 
@@ -299,7 +299,7 @@ input {
 .primaryGoal {
     background-color: #026EFF;
     border-radius: 5px;
-    box-shadow: 0 3px 5px black;
+    box-shadow: 0 5px 5px black;
     line-height: 50px;
 }
 
@@ -307,7 +307,7 @@ input {
     background-color: #026EFF;
     color: white;
     border-radius: 5px;
-    box-shadow: 0 3px 5px black;
+    box-shadow: 0 5px 5px black;
     line-height: 50px;
 }
 
@@ -315,7 +315,7 @@ input {
     color: #026EFF;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 3px 5px black;
+    box-shadow: 0 5px 5px black;
     line-height: 50px;
 }
 
@@ -352,7 +352,7 @@ input {
     margin-top: 50px;
     border-radius: 35px;
     border: 1px solid black;
-    box-shadow: 0 5px 5px #505050;
+    box-shadow: 0 5px 5px black;
 }
 
 .screenshotApp {
@@ -361,7 +361,7 @@ input {
     height: 450px;
     margin-top: 30px;
     border: 1px solid black;
-    box-shadow: 0 5px 5px #505050 !important;
+    box-shadow: 0 5px 5px black !important;
 }
 
 #screenshotContent {
@@ -440,17 +440,17 @@ input {
     border: 1px solid orange;
     border-radius: 5px;
     background-color: #2F3C5F;
-    box-shadow: 0 3px 5px black !important;
+    box-shadow: 0 5px 5px black !important;
 }
 
 .targetGoal:focus {
     color: white;
     background-color: #2F3C5F;
-    box-shadow: 0 3px 5px black !important;
+    box-shadow: 0 5px 5px black !important;
 }
 
 .targetGoal:hover {
-    box-shadow: 0 3px 5px black !important;
+    box-shadow: 0 5px 5px black !important;
     color: #2F3C5F;
     background-color: white;
     border: 1px solid #2F3C5F;
@@ -590,7 +590,7 @@ input {
         width: 70vw;
         border: 3px solid #2F3C5F;
         border-radius: 5px;
-        box-shadow: 0 3px 5px black;
+        box-shadow: 0 5px 5px black;
         margin-bottom: 50px;
     }
 
@@ -605,7 +605,7 @@ input {
         margin-top: 0px;
         border-radius: 35px;
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050;
+        box-shadow: 0 5px 5px black;
     }
 
     .screenshotApp {
@@ -614,12 +614,12 @@ input {
         height: 450px;
         margin-top: 0px;
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050 !important;
+        box-shadow: 0 5px 5px black !important;
     }
 
     #screenshotContent {
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050 !important;
+        box-shadow: none !important;
     }
 
     .title {
@@ -716,7 +716,7 @@ input {
         padding: 0px;
         -webkit-transition: 0.3s;
         transition: 0.3s;
-        box-shadow: 0 8px 12px 0 #505050;
+        box-shadow: 0 5px 5px black !important;
     }
 
     .pricingBox {
@@ -737,7 +737,7 @@ input {
         width: 70vw;
         border: 3px solid #2F3C5F;
         border-radius: 5px;
-        box-shadow: 0 3px 5px black;
+        box-shadow: 0 5px 5px black;
         margin-bottom: 50px;
     }
 
@@ -758,7 +758,7 @@ input {
         margin-top: 0px;
         border-radius: 35px;
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050;
+        box-shadow: 0 5px 5px black;
     }
 
     .screenshotApp {
@@ -767,12 +767,12 @@ input {
         height: 450px;
         margin-top: 0px;
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050 !important;
+        box-shadow: 0 5px 5px black !important;
     }
 
     #screenshotContent {
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050 !important;
+        box-shadow: none !important;
     }
 
     .subheadline {
@@ -926,7 +926,7 @@ input {
         width: 90vw;
         border: 3px solid #2F3C5F;
         border-radius: 5px;
-        box-shadow: 0 3px 5px black;
+        box-shadow: 0 5px 5px black;
         margin-bottom: 50px;
     }
 
@@ -956,7 +956,7 @@ input {
         margin-top: 0px;
         border-radius: 35px;
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050;
+        box-shadow: 0 5px 5px black;
     }
 
     .screenshotApp {
@@ -965,12 +965,12 @@ input {
         height: 360px;
         margin-top: 0px;
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050 !important;
+        box-shadow: 0 5px 5px black !important;
     }
 
     #screenshotContent {
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050 !important;
+        box-shadow: none !important;
     }
 
     .subheader {
@@ -1063,7 +1063,7 @@ input {
         margin-top: 0px;
         border-radius: 35px;
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050;
+        box-shadow: 0 5px 5px black;
     }
 
     .screenshotApp {
@@ -1072,12 +1072,12 @@ input {
         height: 240px;
         margin-top: 0px;
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050 !important;
+        box-shadow: 0 5px 5px black !important;
     }
 
     #screenshotContent {
         border: 1px solid black;
-        box-shadow: 0 5px 5px #505050 !important;
+        box-shadow: none !important;
     }
 
     .title {
