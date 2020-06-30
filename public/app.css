@@ -252,6 +252,8 @@ input {
 }
 
 .pricingBox {
+    width: 100%;
+    margin: 0px auto;
     margin-bottom: 50px;
 }
 
@@ -571,6 +573,12 @@ input {
         margin-right: 30px;
     }
 
+    .pricingBox {
+        width: 100%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+
     .pricingScreenshot {
         width: 70vw;
         border: 3px solid #2F3C5F;
@@ -675,6 +683,22 @@ input {
         text-align: left;
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .price {
+        list-style-type: none;
+        border: 1px solid #eee;
+        margin: 0px;
+        padding: 0px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+    }
+
+    .pricingBox {
+        width: 50%;
+        margin: 0px auto;
+        margin-bottom: 50px;
     }
 
     .pricingHeadline {
@@ -843,6 +867,12 @@ input {
         margin-right: 30px;
     }
 
+    .pricingBox {
+        width: 70%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+
     .pricingHeadline {
         margin: 0px auto;
         margin-bottom: 30px;
@@ -954,6 +984,12 @@ input {
         text-align: center;
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .pricingBox {
+        width: 100%;
+        margin: 0px auto;
+        margin-bottom: 50px;
     }
 
     .pricingHeadline {
