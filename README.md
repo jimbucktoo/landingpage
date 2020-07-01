@@ -1,6 +1,6 @@
 # survaid
 
-Survaid provides a sophisticated mobile data collection toolkit, including a broad array of question types, advanced notification configurations, compliance monitoring, and internal/external device integration. Our software is a cross-platform system for collecting information from participants in real-time, over time.
+Survaid is a mobile data collection toolkit, including a vast array of question types, advanced notification configurations, and compliance monitoring.
 
 ## Technologies
 
