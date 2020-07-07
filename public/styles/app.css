@@ -358,7 +358,7 @@ input {
 .screenshotApp {
     border-radius: 15px;
     width: 600px;
-    height: 400px;
+    height: 450px;
     margin-top: 30px;
     border: 1px solid black;
     box-shadow: 0 5px 5px black !important;
@@ -617,7 +617,7 @@ input {
     .screenshotApp {
         border-radius: 15px;
         width: 600px;
-        height: 400px;
+        height: 450px;
         margin-top: 0px;
         border: 1px solid black;
         box-shadow: 0 5px 5px black !important;
@@ -775,7 +775,7 @@ input {
     .screenshotApp {
         border-radius: 15px;
         width: 600px;
-        height: 400px;
+        height: 450px;
         margin-top: 0px;
         border: 1px solid black;
         box-shadow: 0 5px 5px black !important;
@@ -978,7 +978,7 @@ input {
     .screenshotApp {
         border-radius: 15px;
         width: 480px;
-        height: 320px;
+        height: 360px;
         margin-top: 0px;
         border: 1px solid black;
         box-shadow: 0 5px 5px black !important;
@@ -1098,8 +1098,8 @@ input {
 
     .screenshotApp {
         border-radius: 15px;
-        width: 315px;
-        height: 105px;
+        width: 320px;
+        height: 240px;
         margin-top: 0px;
         border: 1px solid black;
         box-shadow: 0 5px 5px black !important;
